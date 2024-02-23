@@ -1,5 +1,5 @@
 <script>
-	import teamwork from '$lib/assets/teamwork.jpg';
+	import hero from '$lib/assets/hero.webp';
 </script>
 
 <div id="hero" class="py-16 sm:py-32 mx-auto max-w-screen-xl flex flex-col items-center sm:gap-8">
@@ -29,7 +29,11 @@
 				We integrate product management, design and software engineering to enable enterprises and
 				technology disruptors across the globe to thrive as modern digital businesses.
 			</p>
-			<button type="button" class="btn variant-filled bg-primary-500">
+			<button
+				type="button"
+				on:click={() => (window.location.href = '#contact-us')}
+				class="btn variant-filled bg-primary-500"
+			>
 				Contact us
 				<svg
 					class="ml-2 -mr-1 w-5 h-5"
@@ -46,7 +50,7 @@
 		</div>
 
 		<div class="flex-1">
-			<img src={teamwork} alt="Teamwork" class="mb-4 sm:mb-0" />
+			<img src={hero} alt="Teamwork" class="rounded-xl mb-4 sm:mb-0" />
 		</div>
 	</div>
 
