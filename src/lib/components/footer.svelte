@@ -6,7 +6,7 @@
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between">
 			<div>
-				<button on:click={() => (window.location.href = '/')} class="flex items-center">
+				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-8">
 					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
 					<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
 				</button>
