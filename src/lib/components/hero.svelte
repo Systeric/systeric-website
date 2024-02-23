@@ -75,18 +75,18 @@
 	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
 		<span class="font-semibold text-gray-400 uppercase">Trusted by companies around the globe</span>
 		<div
-			class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-4"
+			class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-5"
 		>
-			<img src={fliesimo} alt="Fliesimo" class="max-h-8 sm:max-h-12" />
-			<img src={maplin} alt="Maplin" class="max-h-8 sm:max-h-16" />
-			<img src={neutralizer} alt="Neutralizer" class="max-h-8 sm:max-h-16" />
-			<img src={teamsimon} alt="Team Simon" class="max-h-8 sm:max-h-16" />
-			<img src={titippaket} alt="Titip Paket" class="max-h-8 sm:max-h-16" />
-			<img src={vocha} alt="Vocha" class="max-h-8 sm:max-h-16" />
-			<img src={ptump} alt="PT UMP" class="max-h-8 sm:max-h-16" />
-			<img src={ptml} alt="PT ML" class="max-h-8 sm:max-h-16" />
-			<img src={cvtmp} alt="CV TMP" class="max-h-8 sm:max-h-16" />
-			<img src={ubsi} alt="UBSI" class="max-h-8 sm:max-h-16" />
+			<img src={fliesimo} alt="Fliesimo" class="mx-2 max-h-8 sm:max-h-12" />
+			<img src={maplin} alt="Maplin" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={neutralizer} alt="Neutralizer" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={teamsimon} alt="Team Simon" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={titippaket} alt="Titip Paket" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={vocha} alt="Vocha" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={ptump} alt="PT UMP" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={ptml} alt="PT ML" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={cvtmp} alt="CV TMP" class="mx-2 max-h-12 sm:max-h-16" />
+			<img src={ubsi} alt="UBSI" class="mx-2 max-h-12 sm:max-h-16" />
 		</div>
 	</div>
 </div>
