@@ -1,19 +1,19 @@
+<script>
+	import icon from '$lib/assets/icon.webp';
+</script>
+
 <footer class="py-4 sm:py-6 dark:bg-gray-800">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between">
-			<div class="mb-6 md:mb-0">
+			<div>
 				<a href="https://flowbite.com" class="flex items-center mb-8">
-					<img
-						src="https://flowbite.com/docs/images/logo.svg"
-						class="mr-3 h-8"
-						alt="FlowBite Logo"
-					/>
-					<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-						>Systeric</span
-					>
+					<button on:click={() => (window.location.href = '/')} class="flex items-center">
+						<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
+						<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
+					</button>
 				</a>
 
-				<div class="text-gray-500 mb-4">
+				<div class="text-gray-500 mb-2">
 					<p><strong class="text-gray-700">PT Systeric Teknologi Indonesia</strong></p>
 					<p>2nd Floor Benoa Square</p>
 					<p>Jl. Bypass Ngurah Rai No. 21A</p>
@@ -22,8 +22,8 @@
 
 				<a class="text-gray-800" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
 			</div>
-			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-				<!-- <div>
+			<!-- <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+				<div>
 					<h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
 						Resources
 					</h2>
@@ -59,8 +59,8 @@
 							<a href="#" class="hover:underline">Terms &amp; Conditions</a>
 						</li>
 					</ul>
-				</div> -->
-			</div>
+				</div>
+			</div> -->
 		</div>
 		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
@@ -68,7 +68,7 @@
 				>© 2024 <a href="https://systeric.com" class="hover:underline">Systeric™</a>. All Rights
 				Reserved.
 			</span>
-			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+			<!-- <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 				<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 						><path
@@ -112,7 +112,7 @@
 						/></svg
 					>
 				</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </footer>

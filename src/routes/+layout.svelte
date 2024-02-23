@@ -20,6 +20,7 @@
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
+	import icon from '$lib/assets/icon.webp';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
@@ -27,9 +28,12 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
-		<AppBar>
+		<AppBar class="container mx-auto px-8 sm:px-16">
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Systeric</strong>
+				<button on:click={() => (window.location.href = '/')} class="flex items-center">
+					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
+					<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
+				</button>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<!-- <a
