@@ -6,12 +6,10 @@
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between">
 			<div>
-				<a href="https://flowbite.com" class="flex items-center mb-8">
-					<button on:click={() => (window.location.href = '/')} class="flex items-center">
-						<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
-						<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
-					</button>
-				</a>
+				<button on:click={() => (window.location.href = '/')} class="flex items-center">
+					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
+					<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
+				</button>
 
 				<div class="text-gray-500 mb-2">
 					<p><strong class="text-gray-700">PT Systeric Teknologi Indonesia</strong></p>
