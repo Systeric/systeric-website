@@ -25,6 +25,9 @@
 </script>
 
 <!-- App Shell -->
+<svelte:head>
+	<title>Systeric</title>
+</svelte:head>
 <AppShell>
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
