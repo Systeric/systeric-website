@@ -7,15 +7,22 @@
 		<img src={portrait} alt="Team" class="rounded-xl" />
 	</div>
 	<div class="pb-8 mx-auto flex-1">
-		<div class="max-w-screen-md mb-8 lg:mb-16">
+		<div class="max-w-screen-md mb-8">
 			<h2 class="mb-4 h2 tracking-tight font-extrabold text-secondary-500">
 				We take product ideas from end-to-end
 			</h2>
-			<p class="text-gray-500 sm:text-xl dark:text-gray-400">
-				<strong>Systeric is here to bridge the gap.</strong> We integrate product management, design
-				and software engineering to enable enterprises and technology disruptors across the globe to
-				thrive as modern digital businesses.
-			</p>
+			<div class="text-gray-500 sm:text-xl dark:text-gray-400">
+				<p class="mb-3">
+					There is a steep mountain to climb when launching a new platform, re-designing an existing
+					experience, or strengthening product culture. Don’t go the journey alone. Our specialists
+					fit and flex with the needs of your business on the path to digital transformation.
+				</p>
+				<p>
+					We explore, design, and build technology solutions and innovation teams that enable the
+					world's top companies to make effective decisions, work better together, and ultimately
+					thrive.
+				</p>
+			</div>
 		</div>
 		<div class="space-y-8 md:grid md:grid-cols-1 md:gap-12 md:space-y-0">
 			<div>

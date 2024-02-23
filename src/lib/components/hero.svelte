@@ -37,10 +37,17 @@
 	<div class="flex sm:justify-start sm:items-center gap-4 flex-col-reverse sm:flex-row mb-8">
 		<div class="flex-1">
 			<h1 class="h1 font-extrabold text-secondary-500 mb-6">Digitizing Ideas into Solutions</h1>
-			<p class="text-lg font-normal text-gray-600 lg:text-xl mb-6">
-				We integrate product management, design and software engineering to enable enterprises and
-				technology disruptors across the globe to thrive as modern digital businesses.
-			</p>
+			<div class="text-lg font-normal text-gray-600 lg:text-xl mb-6">
+				<p class="mb-3">
+					<strong>Systeric is here to bridge the gap.</strong> Technology, process, and people set your
+					trajectory.
+				</p>
+				<p>
+					We integrate product management, design, and software engineering to enable enterprises
+					and technology disruptors across the globe to thrive as modern digital businesses.
+				</p>
+			</div>
+
 			<button
 				type="button"
 				on:click={() => (window.location.href = '#contact-us')}
