@@ -17,7 +17,7 @@
 			<div>
 				<p class="h4 mb-4"><strong class="text-gray-700">Company</strong></p>
 
-				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-8">
+				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-4">
 					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
 					<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
 				</button>
