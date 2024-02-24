@@ -75,7 +75,7 @@
 	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
 		<span class="font-semibold text-gray-400 uppercase">Trusted by companies around the globe</span>
 		<div
-			class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-5"
+			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-5"
 		>
 			<img src={fliesimo} alt="Fliesimo" class="mx-2 max-h-8 sm:max-h-12" />
 			<img src={maplin} alt="Maplin" class="mx-2 max-h-12 sm:max-h-16" />
