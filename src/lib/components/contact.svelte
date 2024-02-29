@@ -38,7 +38,7 @@
 			const t = {
 				background: 'variant-filled-success',
 				hideDismiss: true,
-				message: `👋 We've received your message. Our team will reach out to you shortly.`,
+				message: `👋 We've received your inquiry. Our team will reach out to you shortly.`,
 				timeout: 3000
 			};
 			toastStore.trigger(t);
@@ -112,7 +112,7 @@
 			<button
 				type="submit"
 				class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-500 sm:w-fit hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300"
-				>Send message</button
+				>Submit inquiry</button
 			>
 		</form>
 	</div>
