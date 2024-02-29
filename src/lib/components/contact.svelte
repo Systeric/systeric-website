@@ -1,34 +1,53 @@
 <script lang="ts">
+	import { getToastStore } from '@skeletonlabs/skeleton';
+	import { Toast } from '@skeletonlabs/skeleton';
+	const toastStore = getToastStore();
+
 	interface IFormData {
 		email: string;
 		subject: string;
 		message: string;
 	}
-
 	let formData: IFormData = {
 		email: '',
 		subject: '',
 		message: ''
 	};
 
+	const sendDiscordMsg = async () => {
+		const content = `Email: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
+
+		await fetch(
+			'https://discord.com/api/webhooks/1212339071855366154/26mf1Ji-FEl6ZZXY8f7bUhLmzrWFmsgELTRpYiv_eJ6z70Ws43uiHxgBu2MUM7OXiMgR',
+			{
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					content
+				})
+			}
+		);
+	};
+
 	async function onSubmit() {
 		try {
-			const content = `Email: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
+			sendDiscordMsg();
 
-			await fetch(
-				'https://discord.com/api/webhooks/1212339071855366154/26mf1Ji-FEl6ZZXY8f7bUhLmzrWFmsgELTRpYiv_eJ6z70Ws43uiHxgBu2MUM7OXiMgR',
-				{
-					method: 'POST',
-					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify({
-						content
-					})
-				}
-			);
-
-			// TODO popup
+			const t = {
+				background: 'variant-filled-success',
+				hideDismiss: true,
+				message: `👋 We've received your message. Our team will reach out to you shortly.`,
+				timeout: 3000
+			};
+			toastStore.trigger(t);
 		} catch (error) {
-			// TODO popup
+			const t = {
+				background: 'variant-filled-warning',
+				hideDismiss: true,
+				message: `We're unable to submit inquiry. Please try again later.`,
+				timeout: 3000
+			};
+			toastStore.trigger(t);
 		}
 	}
 </script>
@@ -84,4 +103,6 @@
 			>
 		</form>
 	</div>
+
+	<Toast />
 </section>
