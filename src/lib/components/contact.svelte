@@ -7,15 +7,17 @@
 		email: string;
 		subject: string;
 		message: string;
+		mobile: string;
 	}
 	let formData: IFormData = {
 		email: '',
 		subject: '',
-		message: ''
+		message: '',
+		mobile: ''
 	};
 
 	const sendDiscordMsg = async () => {
-		const content = `Email: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
+		const content = `Email: ${formData.email}\nMobile: ${formData.mobile}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
 
 		await fetch(
 			'https://discord.com/api/webhooks/1212339071855366154/26mf1Ji-FEl6ZZXY8f7bUhLmzrWFmsgELTRpYiv_eJ6z70Ws43uiHxgBu2MUM7OXiMgR',
@@ -71,6 +73,17 @@
 					placeholder="name@systeric.com"
 					required
 					bind:value={formData.email}
+				/>
+			</label>
+			<label for="mobile" class="label">
+				<span>Mobile Number</span>
+				<input
+					type="text"
+					id="mobile"
+					class="input border-gray-300"
+					placeholder="+62 8xx-xxx-xxxx"
+					required
+					bind:value={formData.mobile}
 				/>
 			</label>
 			<label for="subject" class="label">
