@@ -33,7 +33,7 @@
 
 	async function onSubmit() {
 		try {
-			sendDiscordMsg();
+			await sendDiscordMsg();
 
 			const t = {
 				background: 'variant-filled-success',
