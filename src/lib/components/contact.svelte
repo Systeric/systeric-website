@@ -16,6 +16,15 @@
 		mobile: ''
 	};
 
+	const resetForm = () => {
+		formData = {
+			email: '',
+			subject: '',
+			message: '',
+			mobile: ''
+		};
+	};
+
 	const sendDiscordMsg = async () => {
 		const content = `Email: ${formData.email}\nMobile: ${formData.mobile}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
 
@@ -42,6 +51,8 @@
 				timeout: 3000
 			};
 			toastStore.trigger(t);
+
+			resetForm();
 		} catch (error) {
 			const t = {
 				background: 'variant-filled-warning',
