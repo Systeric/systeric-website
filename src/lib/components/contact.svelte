@@ -78,7 +78,7 @@
 			<label for="mobile" class="label">
 				<span>Mobile Number</span>
 				<input
-					type="text"
+					type="tel"
 					id="mobile"
 					class="input border-gray-300"
 					placeholder="+62 8xx-xxx-xxxx"
