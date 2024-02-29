@@ -42,7 +42,7 @@
 
 	async function onSubmit() {
 		try {
-			await sendDiscordMsg();
+			sendDiscordMsg();
 
 			const t = {
 				background: 'variant-filled-success',
@@ -54,13 +54,13 @@
 
 			resetForm();
 		} catch (error) {
-			const t = {
-				background: 'variant-filled-warning',
-				hideDismiss: true,
-				message: `We're unable to submit inquiry. Please try again later.`,
-				timeout: 3000
-			};
-			toastStore.trigger(t);
+			// const t = {
+			// 	background: 'variant-filled-warning',
+			// 	hideDismiss: true,
+			// 	message: `We're unable to submit inquiry. Please try again later.`,
+			// 	timeout: 3000
+			// };
+			// toastStore.trigger(t);
 		}
 	}
 </script>
