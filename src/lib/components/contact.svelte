@@ -87,7 +87,7 @@
 				/>
 			</label>
 			<label for="mobile" class="label">
-				<span>Mobile Number</span>
+				<span>Mobile number</span>
 				<input
 					type="tel"
 					id="mobile"
