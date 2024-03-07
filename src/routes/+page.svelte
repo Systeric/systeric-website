@@ -6,7 +6,7 @@
 	import Services from '$lib/components/services.svelte';
 </script>
 
-<div class="container px-8 sm:px-16 w-full mx-auto">
+<div class="container w-full mx-auto">
 	<Hero />
 	<About />
 	<Services />

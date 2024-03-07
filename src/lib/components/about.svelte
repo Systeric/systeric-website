@@ -1,4 +1,4 @@
-<section class="bg-gray-50 mb-16 mt-16">
+<section class="px-8 sm:px-16 py-12 sm:py-16 bg-gray-50 mb-16 mt-16">
 	<div class="flex flex-col-reverse lg:flex-row gap-12">
 		<div class="sm:col-span-2 text-gray-500 sm:text-xl dark:text-gray-400 max-w-2xl">
 			<h2 class="h2 mb-4 tracking-tight font-medium text-secondary-500">

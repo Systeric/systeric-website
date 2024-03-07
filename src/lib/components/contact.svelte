@@ -65,9 +65,11 @@
 	}
 </script>
 
-<section id="contact-us">
+<section id="contact-us" class="px-8 sm:px-16">
 	<div class="py-8 lg:py-16 mx-auto max-w-screen-md">
-		<h2 class="h2 mb-4 tracking-tight font-semibold sm:text-center text-secondary-500">Contact Us</h2>
+		<h2 class="h2 mb-4 tracking-tight font-semibold sm:text-center text-secondary-500">
+			Contact Us
+		</h2>
 		<p class="mb-8 lg:mb-16 font-light sm:text-center text-gray-500 dark:text-gray-400 sm:text-xl">
 			Ready to transform your business with innovative solutions? Let's discuss your project goals.
 			We'll strategize, design, and build the solutions you need to achieve success.
