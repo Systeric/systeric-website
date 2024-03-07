@@ -31,6 +31,16 @@
 <!-- App Shell -->
 <svelte:head>
 	<title>Systeric</title>
+	<meta property="og:title" content="Systeric: Digitizing Ideas into Solutions" />
+	<meta
+		property="og:description"
+		content="We integrate product management, design, and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses."
+	/>
+	<!-- <meta
+		property="og:image"
+		content="https://www.systeric.com/images/digital-transformation-thumbnail.jpg"
+	/> -->
+	<meta property="og:url" content="https://www.systeric.com" />
 </svelte:head>
 <AppShell>
 	<svelte:fragment slot="header">
