@@ -34,7 +34,7 @@
 		>
 	</a>
 
-	<div class="flex lg:justify-start lg:items-center gap-4 flex-col-reverse lg:flex-row mb-16">
+	<div class="flex lg:justify-start lg:items-center gap-12 flex-col-reverse lg:flex-row mb-16">
 		<div class="flex-1">
 			<h1 class="h1 font-semibold text-secondary-500 mb-6">Digitizing Ideas into Solutions</h1>
 			<div class="text-lg text-gray-500 lg:text-xl mb-6">
