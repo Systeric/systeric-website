@@ -19,7 +19,7 @@
 
 				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-4">
 					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
-					<strong class="text-2xl font-bold text-primary-500 -mt-1">systeric</strong>
+					<strong class="text-2xl font-semibold text-primary-500 -mt-1">systeric</strong>
 				</button>
 
 				<a class="text-gray-800" href="mailto:commercial@systeric.com">commercial@systeric.com</a>

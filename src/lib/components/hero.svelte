@@ -36,11 +36,11 @@
 
 	<div class="flex lg:justify-start lg:items-center gap-4 flex-col-reverse lg:flex-row mb-8">
 		<div class="flex-1">
-			<h1 class="h1 font-extrabold text-secondary-500 mb-6">Digitizing Ideas into Solutions</h1>
-			<div class="text-lg font-normal text-gray-600 lg:text-xl mb-6">
+			<h1 class="h1 font-semibold text-secondary-500 mb-6">Digitizing Ideas into Solutions</h1>
+			<div class="text-lg text-gray-600 lg:text-xl mb-6">
 				<p class="mb-3">
-					<strong>Systeric is here to bridge the gap.</strong> Technology, process, and people set your
-					trajectory.
+					<strong class="font-medium">Systeric is here to bridge the gap.</strong> Technology, process,
+					and people set your trajectory.
 				</p>
 				<p>
 					We integrate product management, design, and software engineering to enable enterprises

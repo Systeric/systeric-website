@@ -8,7 +8,7 @@
 	</div>
 	<div class="pb-8 mx-auto flex-1">
 		<div class="max-w-screen-md mb-8">
-			<h2 class="mb-4 h2 tracking-tight font-extrabold text-secondary-500">
+			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500">
 				We take product ideas from end-to-end
 			</h2>
 			<div class="text-gray-500 sm:text-xl dark:text-gray-400">
@@ -41,7 +41,7 @@
 						></path></svg
 					>
 				</div>
-				<h3 class="mb-2 text-xl font-bold dark:text-white">Product Strategy</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">Product Strategy</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500">Unsure where to take your product next?</strong> Unlock a
 					roadmap for success with our expert product strategy services. We'll define your vision, analyze
@@ -66,7 +66,7 @@
 						></path></svg
 					>
 				</div>
-				<h3 class="mb-2 text-xl font-bold dark:text-white">UI/UX Design</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">UI/UX Design</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500">Want to create a product users love?</strong> Elevate your
 					user experience with our UI/UX design services. We design intuitive and delightful interfaces
@@ -87,7 +87,7 @@
 						></path></svg
 					>
 				</div>
-				<h3 class="mb-2 text-xl font-bold dark:text-white">Software Development</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">Software Development</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500">Ready to build your dream software?</strong> Bring your vision
 					to life with our custom software development expertise. We deliver robust, user-centric solutions
@@ -112,7 +112,7 @@
 						></path></svg
 					>
 				</div>
-				<h3 class="mb-2 text-xl font-bold dark:text-white">Infrastructure Migration</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">Infrastructure Migration</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500"
 						>Outgrowing or unsatisfied with your current infrastructure?</strong
