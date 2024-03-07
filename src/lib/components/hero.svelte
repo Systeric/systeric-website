@@ -14,7 +14,7 @@
 	// import interwise from '$lib/assets/clients/vocha.webp';
 </script>
 
-<section id="hero" class="pt-8 pb-8 sm:pt-16 sm:pb-16 mx-auto flex flex-col items-center sm:gap-8">
+<section id="hero" class="mx-auto flex flex-col items-center sm:gap-8">
 	<a
 		href="https://interwise.app"
 		class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-8 text-sm text-gray-700 bg-primary-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -34,7 +34,7 @@
 		>
 	</a>
 
-	<div class="flex lg:justify-start lg:items-center gap-4 flex-col-reverse lg:flex-row mb-8">
+	<div class="flex lg:justify-start lg:items-center gap-4 flex-col-reverse lg:flex-row mb-16">
 		<div class="flex-1">
 			<h1 class="h1 font-semibold text-secondary-500 mb-6">Digitizing Ideas into Solutions</h1>
 			<div class="text-lg text-gray-600 lg:text-xl mb-6">
