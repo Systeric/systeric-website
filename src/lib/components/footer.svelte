@@ -2,8 +2,8 @@
 	import icon from '$lib/assets/icon.webp';
 </script>
 
-<footer class="px-8 sm:px-16 py-4 sm:py-6 max-w-3xl mx-auto">
-	<div class="mx-auto max-w-screen-xl">
+<footer class="mx-auto bg-surface-500 rounded-lg px-8 sm:px-16 py-12 sm:py-16">
+	<div class="mx-auto max-w-3xl">
 		<div class="sm:flex md:justify-between">
 			<div class="text-gray-500 mb-8 sm:mb-0">
 				<p class="h4 mb-4"><strong class="text-gray-700">Systeric</strong></p>

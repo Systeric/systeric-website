@@ -35,7 +35,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<!-- App Bar -->
-		<AppBar class="container mx-auto px-8 sm:px-16">
+		<AppBar class="container mx-auto">
 			<svelte:fragment slot="lead">
 				<button on:click={() => (window.location.href = '/')} class="flex items-center">
 					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />

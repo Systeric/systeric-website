@@ -65,8 +65,8 @@
 	}
 </script>
 
-<section id="contact-us" class="px-8 sm:px-16">
-	<div class="py-8 lg:py-16 mx-auto max-w-screen-md">
+<section id="contact-us">
+	<div class="py-12 sm:py-16 mx-auto max-w-screen-md">
 		<h2 class="h2 mb-4 tracking-tight font-semibold sm:text-center text-secondary-500">
 			Contact Us
 		</h2>

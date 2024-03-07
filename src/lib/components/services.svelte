@@ -2,7 +2,9 @@
 	// import portrait from '$lib/assets/portrait.webp';
 </script>
 
-<section class="px-8 sm:px-16 flex items-center gap-12 sm:pb-16 flex-col lg:flex-row">
+<section
+	class="flex items-center gap-12 flex-col lg:flex-row bg-surface-500 rounded-lg py-12 sm:py-16"
+>
 	<!-- <div class="flex-1">
 		<img src={portrait} alt="Team" class="rounded-xl" />
 	</div> -->
