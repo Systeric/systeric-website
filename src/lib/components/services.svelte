@@ -1,17 +1,17 @@
 <script>
-	import portrait from '$lib/assets/portrait.webp';
+	// import portrait from '$lib/assets/portrait.webp';
 </script>
 
 <section class="px-8 sm:px-16 flex items-center gap-12 sm:pb-16 flex-col lg:flex-row">
-	<div class="flex-1">
+	<!-- <div class="flex-1">
 		<img src={portrait} alt="Team" class="rounded-xl" />
-	</div>
+	</div> -->
 	<div class="pb-8 mx-auto flex-1">
-		<div class="max-w-screen-md mb-8">
-			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500">
+		<div class="mb-12 lg:text-center">
+			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto">
 				We take product ideas from end-to-end
 			</h2>
-			<div class="text-gray-500 sm:text-xl dark:text-gray-400">
+			<div class="text-gray-500 sm:text-xl dark:text-gray-400 lg:max-w-4xl lg:mx-auto">
 				<p class="mb-3">
 					There is a steep mountain to climb when launching a new platform, re-designing an existing
 					experience, or strengthening product culture. Don’t go the journey alone. Our specialists
@@ -24,7 +24,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="space-y-8 md:grid md:grid-cols-1 md:gap-12 md:space-y-0">
+		<div class="space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
 			<div>
 				<div
 					class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
