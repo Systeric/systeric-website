@@ -7,8 +7,8 @@
 		<img src={portrait} alt="Team" class="rounded-xl" />
 	</div> -->
 	<div class="pb-8 mx-auto flex-1">
-		<div class="mb-12 lg:text-center">
-			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto">
+		<div class="mb-12">
+			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto lg:text-center">
 				We take product ideas from end-to-end
 			</h2>
 			<div class="text-gray-500 sm:text-xl dark:text-gray-400 lg:max-w-4xl lg:mx-auto">
