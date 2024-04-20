@@ -19,7 +19,7 @@
 			</p>
 			<p>
 				Raffi, Systeric's founder, has worked with companies in all continents. His leadership
-				within <a href="https://xcion.org" class="text-primary-500 underlined">XCION</a>, Southeast
+				within <a href="https://xcion.org" class="text-primary-500 underlined">XCION</a>, one of Southeast
 				Asia's biggest CIO network,
 				<span class="text-secondary-500"
 					>demonstrates his commitment to strategic systems thinking and understanding the needs of
@@ -31,6 +31,7 @@
 			<img
 				src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 				alt=""
+				class="rounded"
 			/>
 		</div>
 	</div>

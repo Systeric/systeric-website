@@ -4,6 +4,7 @@
 	import FeaturedOn from '$lib/components/featuredOn.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import Hero from '$lib/components/hero.svelte';
+	import OurStory from '$lib/components/ourStory.svelte';
 	import Services from '$lib/components/services.svelte';
 </script>
 
@@ -12,6 +13,7 @@
 	<About />
 	<FeaturedOn />
 	<Services />
+	<OurStory />
 	<Contact />
 	<Footer />
 </div>

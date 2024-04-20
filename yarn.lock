@@ -2046,6 +2046,11 @@ svelte-check@^3.6.0:
     postcss "^8.4.29"
     postcss-scss "^4.0.8"
 
+svelte-flag-icons@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/svelte-flag-icons/-/svelte-flag-icons-1.0.3.tgz#b2ec887a38311b1c2f850d7e8d4e668f3a214415"
+  integrity sha512-oPXJwQ+36nsI25k/J0zpG8YPyb9juJVKTW1dz9q1GgklzpYAry2c7TGOiSokZ428VIFYMIWsGLg42zYpBu4/zw==
+
 svelte-hmr@^0.15.3:
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
