@@ -3,6 +3,7 @@
 	import Contact from '$lib/components/contact.svelte';
 	import FeaturedOn from '$lib/components/featuredOn.svelte';
 	import Footer from '$lib/components/footer.svelte';
+	import FractionalCto from '$lib/components/fractionalCto.svelte';
 	import Hero from '$lib/components/hero.svelte';
 	import OurStory from '$lib/components/ourStory.svelte';
 	import Services from '$lib/components/services.svelte';
@@ -13,7 +14,7 @@
 	<About />
 	<FeaturedOn />
 	<Services />
-	<OurStory />
+	<FractionalCto />
 	<Contact />
 	<Footer />
 </div>

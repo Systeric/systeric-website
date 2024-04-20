@@ -3,6 +3,7 @@
 </script>
 
 <section class="py-12 sm:py-16 bg-surface-500 rounded-lg mb-8 mt-8">
+	<h4 class="font-semibold mb-3 h4 text-primary-400">Our story</h4>
 	<h2 class="h2 mb-8 tracking-tight font-medium text-secondary-500">
 		Evolving Expertise, Expanding Horizons
 	</h2>

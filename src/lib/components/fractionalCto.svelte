@@ -7,20 +7,28 @@
 <section class="bg-surface-500 rounded-lg">
 	<div class="flex gap-12 mx-auto flex-col lg:flex-row">
 		<div class="flex-1">
-			<h4 class="font-semibold mb-3 h4 text-primary-400">Projects</h4>
+			<h4 class="font-semibold mb-3 h4 text-primary-400">Fractional CTO services</h4>
 			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto">
-				We take product ideas from end-to-end
+				Evolving Expertise, Expanding Horizons
 			</h2>
 			<div class="text-gray-500 sm:text-xl dark:text-gray-400 lg:max-w-4xl">
 				<p class="mb-3">
-					There is a steep mountain to climb when launching a new platform, re-designing an existing
-					experience, or strengthening product culture. Don’t go the journey alone. Our specialists
-					fit and flex with the needs of your business on the path to digital transformation.
+					Our origins lie within a dedicated Southeast Asian team, where our <span
+						class="text-secondary-500">commitment to exceeding expectations</span
+					>
+					fueled rapid expansion from 8 to 50+ skilled experts within just 8 months. Our formative years
+					were spent collaborating with a discerning German clientele,
+					<span class="text-secondary-500"
+						>instilling in us an insistence on precision and innovation</span
+					>.
 				</p>
 				<p>
-					We explore, design, and build technology solutions and innovation teams that enable the
-					world's top companies to make effective decisions, work better together, and ultimately
-					thrive.
+					This experience, <span class="text-secondary-500"
+						>honed across a vast range of industries</span
+					>, propelled our evolution. Now, we offer fractional CTO services,
+					<span class="text-secondary-500"
+						>providing visionary guidance alongside technical excellence</span
+					>.
 				</p>
 			</div>
 		</div>
@@ -38,11 +46,10 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Product Strategy</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">Expert Guidance On Demand</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Unsure where to take your product next?</strong> Unlock a
-					roadmap for success with our expert product strategy services. We'll define your vision, analyze
-					the market, and lay out a winning plan.
+					<strong class="text-primary-500">Think of us like your lawyer on retainer.</strong>
+					Need expert and impartial technical advice? You know who to call – your Fractional CTO.
 				</p>
 			</div>
 			<div>
@@ -58,11 +65,15 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">UI/UX Design</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">
+					Focus on Your Business, Not Tech Headaches
+				</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Want to create a product users love?</strong> Elevate your
-					user experience with our UI/UX design services. We design intuitive and delightful interfaces
-					that drive engagement and conversions.
+					<strong class="text-primary-500"
+						>Growing your business is your priority, not wrangling technology.</strong
+					>
+					Offload tech management to your Fractional CTO. We'll handle the decisions, manage projects,
+					and let you focus on what you do best.
 				</p>
 			</div>
 			<div>
@@ -80,37 +91,15 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Software Development</h3>
-				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Ready to build your dream software?</strong> Bring your vision
-					to life with our custom software development expertise. We deliver robust, user-centric solutions
-					that scale with your business.
-				</p>
-			</div>
-			<div>
-				<IconWrapper>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 24 24"
-						fill="currentColor"
-						class="w-5 h-5"
-					>
-						<path
-							d="M5.507 4.048A3 3 0 0 1 7.785 3h8.43a3 3 0 0 1 2.278 1.048l1.722 2.008A4.533 4.533 0 0 0 19.5 6h-15c-.243 0-.482.02-.715.056l1.722-2.008Z"
-						/>
-						<path
-							fill-rule="evenodd"
-							d="M1.5 10.5a3 3 0 0 1 3-3h15a3 3 0 1 1 0 6h-15a3 3 0 0 1-3-3Zm15 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm2.25.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM4.5 15a3 3 0 1 0 0 6h15a3 3 0 1 0 0-6h-15Zm11.25 3.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM19.5 18a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-							clip-rule="evenodd"
-						/>
-					</svg>
-				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Infrastructure Migration</h3>
+				<h3 class="mb-2 text-xl font-semibold dark:text-white">
+					Informed Decisions, Smooth Projects, Partner with Confidence
+				</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500"
-						>Outgrowing or unsatisfied with your current infrastructure?</strong
-					> Ensure a seamless transition with our infrastructure migration solutions. Minimize downtime,
-					reduce cost, ensure observability and optimize performance for your future growth.
+						>We bridge the gap between your business and development agencies,</strong
+					> ensuring informed tech decisions, well-structured projects, and full transparency. Let us
+					cut through the jargon, guide project execution, and ensure fair pricing and smooth handovers
+					for optimal results.
 				</p>
 			</div>
 		</div>
