@@ -25,6 +25,8 @@ npm run dev
 npm run dev -- --open
 ```
 
+https://heroicons.com
+
 ## Building
 
 To create a production version of your app:
