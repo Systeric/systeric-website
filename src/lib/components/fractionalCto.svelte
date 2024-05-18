@@ -92,7 +92,7 @@
 					Informed Decisions, Smooth Projects, Partner with Confidence
 				</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">We bridge the gap between your business and development agencies,</strong><br/>
+					<strong class="text-primary-500">We bridge the gap between your business and development agencies.</strong><br/>
 					Ensuring informed tech decisions, well-structured projects, and full transparency. Let us
 					cut through the jargon, guide project execution, and ensure fair pricing and smooth handovers
 					for optimal results.
