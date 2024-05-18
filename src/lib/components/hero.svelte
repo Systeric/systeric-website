@@ -11,7 +11,9 @@
 	import ptml from '$lib/assets/clients/ptml.webp';
 	import cvtmp from '$lib/assets/clients/cvtmp.webp';
 	import ubsi from '$lib/assets/clients/ubsi.webp';
-	// import interwise from '$lib/assets/clients/vocha.webp';
+	import eliteasia from '$lib/assets/clients/eliteasia.webp';
+	import reallysick from '$lib/assets/clients/reallysick.webp';
+	import iamcasting from '$lib/assets/clients/iamcasting.webp';
 </script>
 
 <section id="hero" class="mx-auto flex flex-col items-center gap-4 sm:mt-0">
@@ -26,11 +28,13 @@
 			fill="currentColor"
 			viewBox="0 0 20 20"
 			xmlns="http://www.w3.org/2000/svg"
-			><path
+		>
+			<path
 				fill-rule="evenodd"
 				d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
 				clip-rule="evenodd"
-			></path></svg
+			></path>
+		</svg
 		>
 	</a>
 
@@ -59,11 +63,13 @@
 					fill="currentColor"
 					viewBox="0 0 20 20"
 					xmlns="http://www.w3.org/2000/svg"
-					><path
+				>
+					<path
 						fill-rule="evenodd"
 						d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
 						clip-rule="evenodd"
-					></path></svg
+					></path>
+				</svg
 				>
 			</button>
 		</div>
@@ -73,20 +79,38 @@
 		</div>
 	</div>
 	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-		<span class="font-semibold text-gray-400 uppercase">Trusted by companies around the globe</span>
+		<span class="font-semibold text-gray-400 uppercase">Trusted by companies around the globe 🌏 </span>
 		<div
-			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-5"
+			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 gap-2 sm:gap-6"
 		>
-			<img src={fliesimo} alt="Fliesimo" class="mx-2 max-h-8 sm:max-h-12" />
+			<a href="https://www.fliesimo.de/">
+				<img src={fliesimo} alt="Fliesimo" class="mx-2 max-h-8 sm:max-h-12 hover:scale-105" />
+			</a>
+			<a href="https://nullify.app/">
+				<img src={neutralizer} alt="Neutralizer" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
+			<a href="http://teamsimon.de/">
+				<img src={teamsimon} alt="Team Simon" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
+			<a href="https://www.linkedin.com/company/titippaket/">
+				<img src={titippaket} alt="Titip Paket" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
 			<img src={maplin} alt="Maplin" class="mx-2 max-h-12 sm:max-h-16" />
-			<img src={neutralizer} alt="Neutralizer" class="mx-2 max-h-12 sm:max-h-16" />
-			<img src={teamsimon} alt="Team Simon" class="mx-2 max-h-12 sm:max-h-16" />
-			<img src={titippaket} alt="Titip Paket" class="mx-2 max-h-12 sm:max-h-16" />
 			<img src={vocha} alt="Vocha" class="mx-2 max-h-12 sm:max-h-16" />
 			<img src={ptump} alt="PT UMP" class="mx-2 max-h-12 sm:max-h-16" />
 			<img src={ptml} alt="PT ML" class="mx-2 max-h-12 sm:max-h-16" />
 			<img src={cvtmp} alt="CV TMP" class="mx-2 max-h-12 sm:max-h-16" />
 			<img src={ubsi} alt="UBSI" class="mx-2 max-h-12 sm:max-h-16" />
+			<a href="https://www.eliteasia.co/">
+				<img src={eliteasia} alt="Elite Asia" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
+			<a href="https://iamcasting.asia/">
+				<img src={iamcasting} alt="IAmCasting" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
+			<a href="https://reallysick.sg/">
+				<img src={reallysick} alt="ReallySick" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
+			</a>
+
 		</div>
 	</div>
 </section>
