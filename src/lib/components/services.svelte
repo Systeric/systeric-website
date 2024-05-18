@@ -4,7 +4,7 @@
 	import IconWrapper from './atoms/iconWrapper.svelte';
 </script>
 
-<section class="bg-surface-500 rounded-lg">
+<section class="bg-tertiary-500 rounded-lg">
 	<div class="flex gap-12 mx-auto flex-col lg:flex-row">
 		<div class="flex-1">
 			<h4 class="font-semibold mb-3 h4 text-primary-400">Projects</h4>

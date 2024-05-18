@@ -2,11 +2,11 @@
 	import icon from '$lib/assets/icon.webp';
 </script>
 
-<footer class="mx-auto bg-surface-500 rounded-lg px-8 sm:px-16 py-12 sm:py-16">
+<footer class="mx-auto bg-black rounded-lg px-8 sm:px-16 py-12 sm:py-16">
 	<div class="mx-auto max-w-3xl">
 		<div class="sm:flex md:justify-between">
-			<div class="text-gray-500 mb-8 sm:mb-0">
-				<p class="h4 mb-4"><strong class="text-gray-700">Systeric</strong></p>
+			<div class="text-white mb-8 sm:mb-0">
+				<p class="h4 mb-4"><strong class="text-white">Systeric</strong></p>
 				<div>
 					<p>PT Systeric Teknologi Indonesia</p>
 					<p>2nd Floor Benoa Square</p>
@@ -15,14 +15,14 @@
 				</div>
 			</div>
 			<div>
-				<p class="h4 mb-4"><strong class="text-gray-700">Company</strong></p>
+				<p class="h4 mb-4"><strong class="text-white">Company</strong></p>
 
 				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-4">
 					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
-					<strong class="text-2xl font-semibold text-primary-500 -mt-1">systeric</strong>
+					<strong class="text-2xl font-semibold text-secondary-500 -mt-1">systeric</strong>
 				</button>
 
-				<a class="text-gray-800" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
+				<a class="text-white" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
 			</div>
 		</div>
 		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
