@@ -11,7 +11,7 @@
 
 <div class="container w-full mx-auto">
 	<Hero />
-	<About />
+<!--	<About />-->
 	<FeaturedOn />
 	<Services />
 	<Clients/>

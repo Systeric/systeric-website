@@ -41,6 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@floating-ui/dom": "1.6.3",
+		"@formkit/auto-animate": "^0.8.2",
 		"highlight.js": "11.9.0"
 	}
 }
