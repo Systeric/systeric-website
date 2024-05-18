@@ -16,7 +16,7 @@
 				Raffi, Systeric's founder, has worked with companies in all continents. His leadership
 				within <a href="https://xcion.org" class="text-secondary-500 underlined">XCION</a>, one of Southeast
 				Asia's biggest CIO network, demonstrates his commitment to strategic systems thinking and understanding the needs of
-				technology leaders
+				technology leaders.
 			</p>
 		</div>
 		<div>
