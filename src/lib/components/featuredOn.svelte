@@ -10,20 +10,20 @@
 	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
 		<span class="font-semibold text-gray-400 uppercase">Featured by</span>
 		<div
-			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 sm:justify-between gap-2 sm:gap-5"
+			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 gap-2 sm:gap-6"
 		>
-			<a href="https://kly.id"><img src={kly} alt="KLY" class="m-2 max-h-8 sm:max-h-12" /></a>
+			<a href="https://kly.id"><img src={kly} alt="KLY" class="m-2 max-h-6 sm:max-h-8" /></a>
 			<a href="https://news.republika.co.id"
-				><img src={republika} alt="Republika" class="m-2 max-h-12 sm:max-h-16" /></a
+				><img src={republika} alt="Republika" class="m-2 max-h-8 sm:max-h-12" /></a
 			>
 			<a href="https://news.bsi.ac.id"
-				><img src={ubsi} alt="UBSI" class="m-2 max-h-12 sm:max-h-16" /></a
+				><img src={ubsi} alt="UBSI" class="m-2 max-h-8 sm:max-h-12" /></a
 			>
 			<a href="https://liputan6.com">
-				<img src={lip6} alt="Liputan 6" class="m-2 max-h-12 sm:max-h-16" /></a
+				<img src={lip6} alt="Liputan 6" class="m-2 max-h-8 sm:max-h-12" /></a
 			>
 			<a href="https://merdeka.com">
-				<img src={merdeka} alt="Merdeka" class="m-2  max-h-12 sm:max-h-16" />
+				<img src={merdeka} alt="Merdeka" class="m-2  max-h-8 sm:max-h-12" />
 			</a>
 		</div>
 	</div>
