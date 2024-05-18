@@ -14,7 +14,7 @@
 	import reallysick from '$lib/assets/clients/reallysick.webp';
 </script>
 
-<section class="py-8">
+<section>
 	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
 		<span class="font-semibold text-gray-400 uppercase">Trusted by companies around the globe 🌏 </span>
 		<div

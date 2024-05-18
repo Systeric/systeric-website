@@ -1,59 +1,29 @@
 <script>
-	// import portrait from '$lib/assets/portrait.webp';
-
 	import IconWrapper from './atoms/iconWrapper.svelte';
 </script>
 
-<section class="bg-tertiary-500 rounded-lg">
-	<div class="flex gap-12 mx-auto flex-col lg:flex-row">
+<section>
+	<div class="flex flex-col lg:flex-row gap-8 p-12 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="flex-1">
-			<h4 class="font-semibold mb-3 h4 text-primary-400">Fractional CTO services</h4>
-			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto">
+			<h4 class="font-semibold mb-3 h4 text-primary-300">Fractional CTO services</h4>
+			<h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">
 				Evolving Expertise, Expanding Horizons
 			</h2>
-			<div class="text-gray-500 sm:text-xl dark:text-gray-400 lg:max-w-4xl">
+			<div class="text-gray-500 dark:text-gray-400 lg:max-w-4xl">
 				<p class="mb-3">
-					Our origins lie within a dedicated Southeast Asian team, where our <span
-						class="text-secondary-500">commitment to exceeding expectations</span
-					>
+					Our origins lie within a dedicated Southeast Asian team, where our commitment to exceeding expectations
 					fueled rapid expansion from 8 to 50+ skilled experts within just 8 months. Our formative years
 					were spent collaborating with a discerning German clientele,
-					<span class="text-secondary-500"
-						>instilling in us an insistence on precision and innovation</span
-					>.
+					instilling in us an insistence on precision and innovation.
 				</p>
 				<p>
-					This experience, <span class="text-secondary-500"
-						>honed across a vast range of industries</span
-					>, propelled our evolution. Now, we offer fractional CTO services,
-					<span class="text-secondary-500"
-						>providing visionary guidance alongside technical excellence</span
-					>.
+					This experience, honed across a vast range of industries, propelled our evolution. Now, we offer fractional
+					CTO services,
+					providing visionary guidance alongside technical excellence.
 				</p>
 			</div>
 		</div>
 		<div class="flex-1 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
-			<div>
-				<IconWrapper>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 24 24"
-						fill="currentColor"
-						class="w-5 h-5"
-					>
-						<path
-							fill-rule="evenodd"
-							d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 5.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75Zm4.878 13.543 1.872-7.662 1.872 7.662h-3.744Zm-9.756 0L5.25 8.131l-1.872 7.662h3.744Z"
-							clip-rule="evenodd"
-						/>
-					</svg>
-				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Expert Guidance On Demand</h3>
-				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Think of us like your lawyer on retainer.</strong>
-					Need expert and impartial technical advice? You know who to call – your Fractional CTO.
-				</p>
-			</div>
 			<div>
 				<IconWrapper>
 					<svg
@@ -72,15 +42,35 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">
 					Focus on Your Business, Not Tech Headaches
 				</h3>
 				<p class="text-gray-500 dark:text-gray-400">
 					<strong class="text-primary-500"
-						>Growing your business is your priority, not wrangling technology.</strong
-					>
+					>Growing your business is your priority, not wrangling technology.</strong> <br />
 					Offload tech management to your Fractional CTO. We'll handle the decisions, manage projects,
 					and let you focus on what you do best.
+				</p>
+			</div>
+			<div>
+				<IconWrapper>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="currentColor"
+						class="w-5 h-5"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 5.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75Zm4.878 13.543 1.872-7.662 1.872 7.662h-3.744Zm-9.756 0L5.25 8.131l-1.872 7.662h3.744Z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</IconWrapper>
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Expert Guidance On Demand</h3>
+				<p class="text-gray-500 dark:text-gray-400">
+					<strong class="text-primary-500">Think of us like your lawyer on retainer.</strong> <br />
+					Need expert and impartial technical advice? You know who to call – your Fractional CTO.
 				</p>
 			</div>
 			<div>
@@ -98,13 +88,12 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">
 					Informed Decisions, Smooth Projects, Partner with Confidence
 				</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500"
-						>We bridge the gap between your business and development agencies,</strong
-					> ensuring informed tech decisions, well-structured projects, and full transparency. Let us
+					<strong class="text-primary-500">We bridge the gap between your business and development agencies,</strong><br/>
+					Ensuring informed tech decisions, well-structured projects, and full transparency. Let us
 					cut through the jargon, guide project execution, and ensure fair pricing and smooth handovers
 					for optimal results.
 				</p>

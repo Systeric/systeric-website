@@ -1,17 +1,15 @@
 <script>
-	// import portrait from '$lib/assets/portrait.webp';
-
 	import IconWrapper from './atoms/iconWrapper.svelte';
 </script>
 
-<section class="bg-tertiary-500 rounded-lg">
-	<div class="flex gap-12 mx-auto flex-col lg:flex-row">
+<section>
+	<div class="flex flex-col lg:flex-row gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="flex-1">
-			<h4 class="font-semibold mb-3 h4 text-primary-400">Projects</h4>
-			<h2 class="mb-4 h2 tracking-tight font-semibold text-secondary-500 lg:mx-auto">
+			<h4 class="font-semibold mb-3 h4 text-primary-300">Projects</h4>
+			<h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">
 				We take product ideas from end-to-end
 			</h2>
-			<div class="text-gray-500 sm:text-xl dark:text-gray-400 lg:max-w-4xl">
+			<div class="text-gray-500 dark:text-gray-400 lg:max-w-4xl">
 				<p class="mb-3">
 					There is a steep mountain to climb when launching a new platform, re-designing an existing
 					experience, or strengthening product culture. Don’t go the journey alone. Our specialists
@@ -38,10 +36,10 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Product Strategy</h3>
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Product Strategy</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Unsure where to take your product next?</strong> Unlock a
-					roadmap for success with our expert product strategy services. We'll define your vision, analyze
+					<strong class="text-primary-500">Unsure where to take your product next?</strong>  <br/>
+					Unlock a roadmap for success with our expert product strategy services. We'll define your vision, analyze
 					the market, and lay out a winning plan.
 				</p>
 			</div>
@@ -58,10 +56,10 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">UI/UX Design</h3>
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">UI/UX Design</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Want to create a product users love?</strong> Elevate your
-					user experience with our UI/UX design services. We design intuitive and delightful interfaces
+					<strong class="text-primary-500">Want to create a product users love?</strong> <br/>
+					Elevate your user experience with our UI/UX design services. We design intuitive and delightful interfaces
 					that drive engagement and conversions.
 				</p>
 			</div>
@@ -80,10 +78,10 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Software Development</h3>
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Software Development</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500">Ready to build your dream software?</strong> Bring your vision
-					to life with our custom software development expertise. We deliver robust, user-centric solutions
+					<strong class="text-primary-500">Ready to build your dream software?</strong> <br/>
+					Bring your vision to life with our custom software development expertise. We deliver robust, user-centric solutions
 					that scale with your business.
 				</p>
 			</div>
@@ -105,11 +103,10 @@
 						/>
 					</svg>
 				</IconWrapper>
-				<h3 class="mb-2 text-xl font-semibold dark:text-white">Infrastructure Migration</h3>
+				<h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Infrastructure Migration</h3>
 				<p class="text-gray-500 dark:text-gray-400">
-					<strong class="text-primary-500"
-						>Outgrowing or unsatisfied with your current infrastructure?</strong
-					> Ensure a seamless transition with our infrastructure migration solutions. Minimize downtime,
+					<strong class="text-primary-500">Outgrowing or unsatisfied with your current infrastructure?</strong> <br/>
+					Ensure a seamless transition with our infrastructure migration solutions. Minimize downtime,
 					reduce cost, ensure observability and optimize performance for your future growth.
 				</p>
 			</div>

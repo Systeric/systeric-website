@@ -5,7 +5,7 @@
 	import Footer from '$lib/components/footer.svelte';
 	import FractionalCto from '$lib/components/fractionalCto.svelte';
 	import Hero from '$lib/components/hero.svelte';
-	import OurStory from '$lib/components/ourStory.svelte';
+	import Clients from '$lib/components/clients.svelte';
 	import Services from '$lib/components/services.svelte';
 </script>
 
@@ -14,6 +14,7 @@
 	<About />
 	<FeaturedOn />
 	<Services />
+	<Clients/>
 	<FractionalCto />
 	<Contact />
 	<Footer />

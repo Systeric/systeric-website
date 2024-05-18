@@ -2,7 +2,7 @@
 	import icon from '$lib/assets/icon.webp';
 </script>
 
-<footer class="mx-auto bg-black rounded-lg px-8 sm:px-16 py-12 sm:py-16">
+<footer class="mx-auto bg-black rounded-lg px-8 sm:px-16 py-12 sm:py-16 mb-4">
 	<div class="mx-auto max-w-3xl">
 		<div class="sm:flex md:justify-between">
 			<div class="text-white mb-8 sm:mb-0">

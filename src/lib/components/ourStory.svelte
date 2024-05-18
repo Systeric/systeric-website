@@ -9,7 +9,7 @@
 	</h2>
 
 	<div class="flex flex-col-reverse lg:flex-row gap-12">
-		<div class="sm:col-span-2 text-gray-500 sm:text-xl dark:text-gray-400 max-w-2xl">
+		<div class="sm:col-span-2 text-gray-500 dark:text-gray-400 max-w-2xl">
 			<IconWrapper
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
 				in our own work ethic.
 			</p>
 		</div>
-		<div class="sm:col-span-2 text-gray-500 sm:text-xl dark:text-gray-400 max-w-2xl">
+		<div class="sm:col-span-2 text-gray-500 dark:text-gray-400 max-w-2xl">
 			<IconWrapper>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
