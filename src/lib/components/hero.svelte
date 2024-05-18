@@ -16,7 +16,7 @@
 	import iamcasting from '$lib/assets/clients/iamcasting.webp';
 </script>
 
-<section id="hero" class="mx-auto flex flex-col items-center gap-4 sm:mt-0">
+<section id="hero" class="mx-auto flex flex-col items-center gap-4 sm:mt-0 sm:mb-0">
 	<a
 		href="https://interwise.app"
 		class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-8 text-sm text-gray-700 bg-primary-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -110,7 +110,7 @@
 			<a href="https://reallysick.sg/">
 				<img src={reallysick} alt="ReallySick" class="mx-2 max-h-12 sm:max-h-16 hover:scale-105" />
 			</a>
-
 		</div>
+		<p class="mt-12 text-sm text-gray-400">* Due to confidentiality agreements, some of our valued clients remain undisclosed.</p>
 	</div>
 </section>
