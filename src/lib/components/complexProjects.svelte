@@ -23,8 +23,6 @@
             <li>A team of tech wizards who thrive on innovation</li>
           </ul>
         </div>
-        <p class="mt-3">
-        </p>
       </div>
     </div>
     
