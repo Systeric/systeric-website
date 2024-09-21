@@ -1,5 +1,4 @@
 <script>
-	import About from '$lib/components/about.svelte';
 	import Contact from '$lib/components/contact.svelte';
 	import FeaturedOn from '$lib/components/featuredOn.svelte';
 	import Footer from '$lib/components/footer.svelte';
@@ -7,6 +6,7 @@
 	import Hero from '$lib/components/hero.svelte';
 	import Clients from '$lib/components/clients.svelte';
 	import Services from '$lib/components/services.svelte';
+	import ComplexProjects from '$lib/components/complexProjects.svelte';
 </script>
 
 <div class="container w-full mx-auto">
@@ -15,6 +15,7 @@
 	<FeaturedOn />
 	<Services />
 	<Clients/>
+	<ComplexProjects />
 	<FractionalCto />
 	<Contact />
 	<Footer />
