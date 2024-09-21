@@ -3,7 +3,7 @@
 </script>
 
 <section>
-	<div class="flex flex-col lg:flex-row gap-8 p-12 sm:p-12 bg-tertiary-500 rounded-lg">
+	<div class="flex flex-col lg:flex-row gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="flex-1">
 			<h4 class="font-semibold mb-3 h4 text-primary-300">Fractional CTO services</h4>
 			<h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">
