@@ -9,18 +9,18 @@
         </p>
         <div class="mb-3">
           <strong>Key Achievements:</strong>
-          <ul class="list-disc pl-5">
-            <li><strong>High-performance Exchange System:</strong> Robust platform handling high-volume transactions with minimal latency.</li>
-            <li><strong>Sophisticated Ledger System:</strong> Comprehensive solution providing unparalleled financial visibility and control.</li>
-            <li><strong>E-commerce Backend:</strong> Scalable system with multi-region functionality and complex inventory management.</li>
+          <ul class="list-disc pl-5 text-gray-500 ">
+              <li class="font-light"><strong class="font-semibold">High-performance Exchange System:</strong> Robust platform handling high-volume transactions with minimal latency.</li>
+            <li class="font-light"><strong class="font-semibold">Sophisticated Ledger System:</strong> Comprehensive solution providing unparalleled financial visibility and control.</li>
+            <li class="font-light"><strong class="font-semibold">E-commerce Backend:</strong> Scalable system with multi-region functionality and complex inventory management.</li>
           </ul>
         </div>
         <div class="mb-3">
-          <strong>The Systeric Edge:</strong>
+          <strong class="font-semibold">The Systeric Edge:</strong>
           <ul class="list-disc pl-5">
-            <li>Cutting-edge tech, handpicked for each unique challenge</li>
-            <li>Battle-tested open-source solutions, fine-tuned for peak performance</li>
-            <li>A team of tech wizards who thrive on innovation</li>
+            <li class="font-light">Cutting-edge tech, handpicked for each unique challenge</li>
+            <li class="font-light">Battle-tested open-source solutions, fine-tuned for peak performance</li>
+            <li class="font-light">A team of tech wizards who thrive on innovation</li>
           </ul>
         </div>
       </div>
