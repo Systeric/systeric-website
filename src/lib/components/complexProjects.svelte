@@ -11,8 +11,8 @@
           <strong>Key Achievements:</strong>
           <ul class="list-disc pl-5 text-gray-500 ">
               <li class="font-light"><strong class="font-semibold">High-performance Exchange System:</strong> Robust platform handling high-volume transactions with minimal latency.</li>
-            <li class="font-light"><strong class="font-semibold">Sophisticated Ledger System:</strong> Comprehensive solution providing unparalleled financial visibility and control.</li>
-            <li class="font-light"><strong class="font-semibold">E-commerce Backend:</strong> Scalable system with multi-region functionality and complex inventory management.</li>
+            <li class="font-light"><strong class="font-semibold">Robust Ledger System:</strong> High-performance solution utilizing double entry accounting for comprehensive financial tracking and management.</li>
+            <li class="font-light"><strong class="font-semibold">Multi-Region Inventory System:</strong> Optimized and localized e-commerce backend with intelligent inventory distribution across regions, and real-time stock synchronization.</li>
           </ul>
         </div>
         <div class="">
@@ -37,7 +37,7 @@
         </div>
         <h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Our Impact Across Industries</h3>
         <ul class="text-gray-500 dark:text-gray-400 list-disc pl-5">
-          <li>Finance: Revolutionizing transactions with high-performance exchange systems</li>
+          <li>Finance: Revolutionizing transactions with high-performance exchange systems in sustainability market</li>
           <li>FinTech: Streamlining financial operations and enhancing control through advanced ledger systems</li>
           <li>E-commerce: Optimizing operations with scalable, multi-region backends</li>
           <li>Logistics: Streamlining global inventory management</li>
