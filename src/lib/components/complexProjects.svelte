@@ -1,5 +1,5 @@
 <section>
-  <div class="flex flex-col lg:flex-row gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
+  <div class="flex flex-col lg:flex-row gap-6 sm:gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
     <div class="flex-1">
       <h4 class="font-semibold mb-3 h4 text-primary-300">Transforming Impossibilities into Realities</h4>
       <h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">Embark on Our Extraordinary Tech Odyssey</h2>
@@ -15,7 +15,7 @@
             <li class="font-light"><strong class="font-semibold">E-commerce Backend:</strong> Scalable system with multi-region functionality and complex inventory management.</li>
           </ul>
         </div>
-        <div class="mb-3">
+        <div class="">
           <strong class="font-semibold">The Systeric Edge:</strong>
           <ul class="list-disc pl-5">
             <li class="font-light">Cutting-edge tech, handpicked for each unique challenge</li>

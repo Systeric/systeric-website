@@ -1,5 +1,5 @@
 <section>
-	<div class="flex flex-col-reverse lg:flex-row gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
+	<div class="flex flex-col-reverse lg:flex-row gap-6 sm:gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="sm:col-span-2 text-gray-500 dark:text-gray-400 max-w-2xl">
 			<h2 class="h2 mb-8 tracking-tight font-medium text-primary-500">
 				Strategy. Design. Engineering.
