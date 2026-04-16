@@ -1,140 +1,16 @@
-<script lang="ts">
-	import { getToastStore } from '@skeletonlabs/skeleton';
-	import { Toast } from '@skeletonlabs/skeleton';
-
-	const toastStore = getToastStore();
-
-	interface IFormData {
-		email: string;
-		subject: string;
-		message: string;
-		mobile: string;
-	}
-
-	let formData: IFormData = {
-		email: '',
-		subject: '',
-		message: '',
-		mobile: ''
-	};
-
-	const resetForm = () => {
-		formData = {
-			email: '',
-			subject: '',
-			message: '',
-			mobile: ''
-		};
-	};
-
-	const sendDiscordMsg = async () => {
-		const content = `Email: ${formData.email}\nMobile: ${formData.mobile}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
-
-		await fetch(
-			'https://discord.com/api/webhooks/1212339071855366154/26mf1Ji-FEl6ZZXY8f7bUhLmzrWFmsgELTRpYiv_eJ6z70Ws43uiHxgBu2MUM7OXiMgR',
-			{
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({
-					content
-				})
-			}
-		);
-	};
-
-	let submitting = false;
-
-	async function onSubmit() {
-		submitting = true;
-		try {
-			await sendDiscordMsg();
-
-			toastStore.trigger({
-				background: 'variant-filled-success',
-				hideDismiss: true,
-				message: `We've received your inquiry. Our team will reach out to you shortly.`,
-				timeout: 3000
-			});
-
-			resetForm();
-		} catch (error) {
-			toastStore.trigger({
-				background: 'variant-filled-warning',
-				hideDismiss: true,
-				message: `We're unable to submit your inquiry. Please try again later.`,
-				timeout: 3000
-			});
-		} finally {
-			submitting = false;
-		}
-	}
-</script>
-
 <section id="contact-us">
-	<div class="mx-auto max-w-screen-md">
-		<h2 class="h2 mb-4 tracking-tight font-semibold sm:text-center text-secondary-500">
+	<div class="mx-auto max-w-screen-md text-center">
+		<h2 class="h2 mb-4 tracking-tight font-semibold text-secondary-500">
 			Contact Us
 		</h2>
-		<p class="mb-4 lg:mb-16 font-light sm:text-center text-gray-500 dark:text-gray-400">
-			Ready to transform your business with innovative solutions? Let's discuss your project goals.
-			We'll strategize, design, and build the solutions you need to achieve success.
+		<p class="mb-8 font-light text-gray-500 dark:text-gray-400">
+			Ready to discuss your project? Reach out to us directly.
 		</p>
-		<form on:submit|preventDefault={onSubmit} class="space-y-4">
-
-				<label for="email" class="label">
-					<span>Your email</span>
-					<input
-						type="email"
-						id="email"
-						class="input border-gray-300"
-						placeholder="name@systeric.com"
-						required
-						bind:value={formData.email}
-					/>
-				</label>
-				<label for="mobile" class="label">
-					<span>Mobile number</span>
-					<input
-						type="tel"
-						id="mobile"
-						class="input border-gray-300"
-						placeholder="+62 8xx-xxx-xxxx"
-						required
-						bind:value={formData.mobile}
-					/>
-				</label>
-				<label for="subject" class="label">
-					<span>Subject</span>
-					<input
-						type="text"
-						id="subject"
-						class="input border-gray-300"
-						placeholder="Let us know how we can help you"
-						required
-						bind:value={formData.subject}
-					/>
-				</label>
-				<div class="sm:col-span-2">
-					<label for="message" class="label">
-						<span>Your message</span>
-						<textarea
-							id="message"
-							rows="6"
-							class="input border-gray-300"
-							placeholder="Leave a comment..."
-							bind:value={formData.message}
-						></textarea>
-					</label>
-				</div>
-				<button
-					type="submit"
-					disabled={submitting}
-					class="py-3 px-5 mt-4 text-sm font-medium text-center text-white rounded-lg bg-primary-500 sm:w-fit hover:bg-primary-700 focus-visible:ring-4 focus-visible:outline-none focus-visible:ring-primary-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-				>{submitting ? 'Submitting...' : 'Submit inquiry'}
-				</button
-				>
-		</form>
+		<a
+			href="mailto:commercial@systeric.com"
+			class="btn variant-filled bg-primary-500 hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 transition-colors"
+		>
+			commercial@systeric.com
+		</a>
 	</div>
-
-	<Toast />
 </section>
