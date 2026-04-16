@@ -7,24 +7,16 @@
 </script>
 
 <section>
-	<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-		<span class="font-semibold text-gray-400 uppercase">Featured by</span>
+	<div class="mx-auto text-center max-w-3xl">
+		<p class="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-8">Featured by</p>
 		<div
-			class="flex flex-wrap justify-center items-center mt-2 sm:mt-8 text-gray-500 gap-2 sm:gap-6"
+			class="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 sm:gap-x-12 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500"
 		>
-			<a href="https://kly.id"><img src={kly} alt="KLY" loading="lazy" class="m-2 max-h-6 sm:max-h-8" /></a>
-			<a href="https://news.republika.co.id"
-				><img src={republika} alt="Republika" loading="lazy" class="m-2 max-h-8 sm:max-h-12" /></a
-			>
-			<a href="https://news.bsi.ac.id"
-				><img src={ubsi} alt="UBSI" loading="lazy" class="m-2 max-h-8 sm:max-h-12" /></a
-			>
-			<a href="https://liputan6.com">
-				<img src={lip6} alt="Liputan 6" loading="lazy" class="m-2 max-h-8 sm:max-h-12" /></a
-			>
-			<a href="https://merdeka.com">
-				<img src={merdeka} alt="Merdeka" loading="lazy" class="m-2 max-h-8 sm:max-h-12" />
-			</a>
+			<a href="https://kly.id"><img src={kly} alt="KLY" loading="lazy" class="max-h-6 sm:max-h-8" /></a>
+			<a href="https://news.republika.co.id"><img src={republika} alt="Republika" loading="lazy" class="max-h-8 sm:max-h-10" /></a>
+			<a href="https://news.bsi.ac.id"><img src={ubsi} alt="UBSI" loading="lazy" class="max-h-8 sm:max-h-10" /></a>
+			<a href="https://liputan6.com"><img src={lip6} alt="Liputan 6" loading="lazy" class="max-h-8 sm:max-h-10" /></a>
+			<a href="https://merdeka.com"><img src={merdeka} alt="Merdeka" loading="lazy" class="max-h-8 sm:max-h-10" /></a>
 		</div>
 	</div>
 </section>

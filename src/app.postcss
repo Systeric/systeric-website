@@ -3,17 +3,22 @@
 @tailwind utilities;
 @tailwind variants;
 
+html {
+	scroll-behavior: smooth;
+}
+
 html,
 body {
-	@apply h-full font-sans;
+	@apply h-full font-sans antialiased;
+	color: rgb(30 41 59);
 }
 
 p {
-	@apply font-light;
+	@apply font-light leading-relaxed;
 }
 
 section {
-	@apply px-4 sm:px-8 py-4 sm:py-8 my-4 sm:my-8;
+	@apply px-6 sm:px-10 lg:px-16 py-12 sm:py-16 lg:py-20;
 }
 
 @font-face {
