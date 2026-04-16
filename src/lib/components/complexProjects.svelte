@@ -1,5 +1,8 @@
-<section class="bg-tertiary-500/40">
-  <div class="max-w-4xl mx-auto">
+<section class="bg-tertiary-500/40 relative overflow-hidden">
+  <!-- Geometric accent -->
+  <div class="accent-ring" aria-hidden="true"></div>
+
+  <div class="max-w-4xl mx-auto relative">
     <p class="label-section">Track Record</p>
     <h2 class="heading-section mb-10">What we've built</h2>
 

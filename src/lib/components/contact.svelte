@@ -1,5 +1,8 @@
-<section id="contact-us" class="bg-tertiary-500/40">
-	<div class="mx-auto max-w-2xl text-center">
+<section id="contact-us" class="bg-tertiary-500/40 relative overflow-hidden">
+	<!-- Warm glow -->
+	<div class="contact-glow" aria-hidden="true"></div>
+
+	<div class="mx-auto max-w-2xl text-center relative">
 		<p class="label-section">Get in touch</p>
 		<h2 class="heading-section mb-6">Let's build something that matters</h2>
 		<p class="body-lead mb-12">
