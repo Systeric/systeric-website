@@ -4,7 +4,7 @@
 
 <section id="services">
 	<div class="card card-layout">
-		<div class="flex-1 max-w-xl">
+		<div class="flex-1 max-w-lg">
 			<p class="label-section">What We Do</p>
 			<h2 class="heading-section">Problems first, solutions second</h2>
 			<div class="body-section">
@@ -14,8 +14,8 @@
 					and ensure it's worth solving given your priorities.
 				</p>
 				<p>
-					We integrate strategy, design, and engineering so you get one team
-					that owns outcomes — not a chain of handoffs that dilutes accountability.
+					One team that owns outcomes — not a chain of handoffs
+					that dilutes accountability.
 				</p>
 			</div>
 		</div>
@@ -28,8 +28,7 @@
 				</IconWrapper>
 				<h3 class="heading-feature">Product Strategy</h3>
 				<p class="body-feature">
-					<strong class="text-hook">Unsure where to take your product next?</strong><br />
-					We define your vision, analyze the market, and lay out a winning roadmap.
+					Define your vision, validate with data, and build a roadmap that balances ambition with pragmatism.
 				</p>
 			</div>
 			<div>
@@ -40,8 +39,7 @@
 				</IconWrapper>
 				<h3 class="heading-feature">UI/UX Design</h3>
 				<p class="body-feature">
-					<strong class="text-hook">Want to create a product users love?</strong><br />
-					We design intuitive interfaces that drive engagement and conversions.
+					Intuitive interfaces that feel effortless. We design for real users, not hypothetical ones.
 				</p>
 			</div>
 			<div>
@@ -52,8 +50,7 @@
 				</IconWrapper>
 				<h3 class="heading-feature">Software Development</h3>
 				<p class="body-feature">
-					<strong class="text-hook">Ready to build your dream software?</strong><br />
-					We deliver robust, user-centric solutions that scale with your business.
+					Clean, well-tested systems that scale. Trunk-based development, small PRs, feature flags — no shortcuts.
 				</p>
 			</div>
 			<div>
@@ -63,10 +60,9 @@
 						<path fill-rule="evenodd" d="M1.5 10.5a3 3 0 0 1 3-3h15a3 3 0 1 1 0 6h-15a3 3 0 0 1-3-3Zm15 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm2.25.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM4.5 15a3 3 0 1 0 0 6h15a3 3 0 1 0 0-6h-15Zm11.25 3.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM19.5 18a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" clip-rule="evenodd" />
 					</svg>
 				</IconWrapper>
-				<h3 class="heading-feature">Infrastructure Migration</h3>
+				<h3 class="heading-feature">Infrastructure</h3>
 				<p class="body-feature">
-					<strong class="text-hook">Outgrowing your current infrastructure?</strong><br />
-					Minimize downtime, reduce cost, ensure observability and optimize for growth.
+					Migrate, optimize, and observe. We reduce cost and downtime while building for your next order of magnitude.
 				</p>
 			</div>
 		</div>

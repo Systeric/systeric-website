@@ -14,11 +14,11 @@ body {
 }
 
 p {
-	@apply font-light leading-relaxed;
+	@apply leading-relaxed;
 }
 
 section {
-	@apply px-6 sm:px-10 lg:px-16 py-12 sm:py-16 lg:py-20;
+	@apply px-6 sm:px-10 lg:px-16 py-16 sm:py-20 lg:py-28;
 }
 
 @font-face {
@@ -31,96 +31,85 @@ section {
 
 @layer components {
 
-	/* Accent color for headings — #003d99 (Deep Blue) */
-	.color-accent { color: #003d99; }
-
 	/* Typography */
 	.heading-display {
-		@apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1];
+		@apply text-4xl sm:text-5xl lg:text-[3.5rem] font-semibold tracking-tight leading-[1.1];
 		color: #003d99;
 	}
 	.heading-section {
-		@apply text-3xl sm:text-4xl tracking-tight font-bold mb-5;
+		@apply text-3xl sm:text-4xl tracking-tight font-semibold mb-5;
 		color: #003d99;
 	}
-	.heading-feature  { @apply mb-2 text-lg font-semibold text-slate-800; }
+	.heading-feature  { @apply mb-2 text-lg font-medium text-slate-800; }
 
-	.label-section    { @apply font-semibold mb-3 text-sm uppercase tracking-wider text-primary-500; }
-	.label-muted      { @apply font-semibold text-sm uppercase tracking-wider text-slate-400; }
+	.label-section    { @apply font-medium mb-4 text-xs uppercase tracking-[0.15em] text-primary-500; }
+	.label-muted      { @apply font-medium text-xs uppercase tracking-[0.15em] text-slate-400; }
 
-	.body-section     { @apply text-slate-600 space-y-4; }
-	.body-feature     { @apply text-slate-500 text-sm leading-relaxed; }
+	.body-section     { @apply text-slate-500 space-y-4; }
+	.body-feature     { @apply text-slate-500 text-[0.9rem] leading-relaxed; }
 	.body-lead        { @apply text-lg text-slate-500 leading-relaxed; }
 
-	.text-hook        { @apply text-primary-600 font-medium; }
+	.text-hook        { @apply text-slate-700 font-medium; }
 	.text-emphasis    { @apply text-primary-500 font-medium; }
 
 	/* Surfaces */
 	.card {
-		@apply bg-tertiary-500 rounded-2xl p-8 sm:p-14;
+		@apply bg-tertiary-500/60 rounded-2xl p-8 sm:p-14;
 	}
 	.card-layout {
-		@apply flex flex-col lg:flex-row gap-10 sm:gap-16;
+		@apply flex flex-col lg:flex-row gap-12 sm:gap-20;
 	}
 	.feature-grid {
-		@apply flex-1 space-y-8 md:grid md:grid-cols-2 md:gap-10 md:space-y-0;
+		@apply flex-1 space-y-10 md:grid md:grid-cols-2 md:gap-12 md:space-y-0;
 	}
 
 	/* Buttons */
 	.btn-primary {
-		@apply inline-flex items-center px-7 py-3.5 text-base font-semibold
+		@apply inline-flex items-center px-7 py-3.5 text-[0.9rem] font-medium
 		       text-white bg-primary-500 rounded-lg
-		       transition-all duration-200
-		       hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/25
+		       transition-all duration-300
+		       hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/20
 		       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
 	}
 	.btn-ghost {
-		@apply inline-flex items-center px-7 py-3.5 text-base font-semibold
-		       text-primary-500 bg-primary-50 rounded-lg
-		       transition-all duration-200
-		       hover:bg-primary-100
+		@apply inline-flex items-center px-7 py-3.5 text-[0.9rem] font-medium
+		       text-slate-600 bg-slate-100 rounded-lg
+		       transition-all duration-300
+		       hover:bg-slate-200
 		       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
 	}
 	.btn-nav {
-		@apply text-sm font-semibold text-white bg-primary-500
-		       px-5 py-2.5 rounded-lg
-		       transition-all duration-200
-		       hover:bg-primary-600 hover:shadow-md
+		@apply text-sm font-medium text-white bg-primary-500
+		       px-5 py-2 rounded-lg
+		       transition-all duration-300
+		       hover:bg-primary-600 hover:shadow-md hover:shadow-primary-500/20
 		       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
 	}
 
 	/* Navigation */
 	.nav-link {
-		@apply text-sm font-medium text-slate-500
-		       transition-colors duration-200
-		       hover:text-primary-500
+		@apply text-sm text-slate-400
+		       transition-colors duration-300
+		       hover:text-slate-800
 		       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 rounded;
 	}
 	.nav-link-mobile {
-		@apply block py-3 px-3 text-sm font-medium text-slate-600
-		       rounded-lg transition-all duration-200
-		       hover:text-primary-500 hover:bg-primary-50
+		@apply block py-3 px-3 text-sm text-slate-500
+		       rounded-lg transition-all duration-300
+		       hover:text-slate-800 hover:bg-slate-50
 		       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
 	}
 
-	/* Focus ring — use on any interactive element */
+	/* Focus ring */
 	.focus-ring {
 		@apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500;
 	}
 
-	/* List bullet */
-	.bullet {
-		@apply mt-1.5 w-1.5 h-1.5 rounded-full shrink-0;
-	}
-	.bullet-item {
-		@apply flex gap-3 items-start;
-	}
-
-	/* Logo strip (clients / featured by) */
+	/* Logo strip */
 	.logo-strip {
 		@apply flex flex-wrap justify-center items-center
-		       opacity-70 grayscale
+		       opacity-60 grayscale
 		       hover:grayscale-0 hover:opacity-100
-		       transition-all duration-500;
+		       transition-all duration-700;
 	}
 }

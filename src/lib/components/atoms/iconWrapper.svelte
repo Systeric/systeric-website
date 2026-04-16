@@ -1,5 +1,3 @@
-<div
-	class="flex justify-center items-center mb-4 w-11 h-11 rounded-xl bg-primary-100 lg:h-12 lg:w-12 text-primary-500 transition-colors"
->
+<div class="flex justify-center items-center mb-4 w-10 h-10 rounded-lg bg-primary-500/10 text-primary-500">
 	<slot />
 </div>

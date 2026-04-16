@@ -1,9 +1,10 @@
-<section id="contact-us" class="!py-20 sm:!py-28">
+<section id="contact-us">
 	<div class="mx-auto max-w-2xl text-center">
 		<p class="label-section">Get in touch</p>
-		<h2 class="heading-section">Ready to discuss your project?</h2>
-		<p class="body-lead mb-10">
-			Whether you need a full product team or strategic tech guidance, we'd love to hear about your challenges.
+		<h2 class="heading-section mb-6">Let's build something that matters</h2>
+		<p class="body-lead mb-12">
+			Whether you need a full product team or strategic tech guidance,
+			we'd love to hear about your challenges.
 		</p>
 		<a href="mailto:commercial@systeric.com" class="btn-primary px-8 py-4">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 mr-3" aria-hidden="true">

@@ -40,12 +40,12 @@
 </svelte:head>
 <AppShell>
 	<svelte:fragment slot="header">
-		<div class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-slate-100">
+		<div class="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-100/80">
 			<AppBar class="container mx-auto !bg-transparent" background="">
 				<svelte:fragment slot="lead">
-					<a href="/" class="flex items-center gap-3 group focus-ring rounded-lg">
-						<img src={icon} alt="Systeric" class="w-9 transition-transform group-hover:scale-105" />
-						<strong class="text-xl font-semibold tracking-tight" style="color: #0090d1;">systeric</strong>
+					<a href="/" class="flex items-center gap-3 group focus-ring rounded-lg py-1">
+						<img src={icon} alt="Systeric" class="w-8" />
+						<strong class="text-lg font-medium tracking-tight text-slate-800">systeric</strong>
 					</a>
 				</svelte:fragment>
 				<svelte:fragment slot="trail">
@@ -56,29 +56,29 @@
 						<a href="#contact-us" class="btn-nav">Get in touch</a>
 					</nav>
 					<button
-						class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors focus-ring"
+						class="md:hidden p-2 rounded-lg hover:bg-slate-50 transition-colors focus-ring"
 						on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
 						aria-label="Toggle navigation menu"
 						aria-expanded={mobileMenuOpen}
 					>
-						<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							{#if mobileMenuOpen}
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
 							{:else}
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
 							{/if}
 						</svg>
 					</button>
 				</svelte:fragment>
 			</AppBar>
 			{#if mobileMenuOpen}
-				<nav class="md:hidden bg-white/95 backdrop-blur-lg border-t border-slate-100 px-6 py-4 space-y-1" aria-label="Mobile navigation">
+				<nav class="md:hidden bg-white border-t border-slate-100 px-6 py-4 space-y-1" aria-label="Mobile navigation">
 					{#each navLinks as { href, label }}
 						<a {href} class="nav-link-mobile" on:click={() => (mobileMenuOpen = false)}>{label}</a>
 					{/each}
 					<a
 						href="#contact-us"
-						class="block py-3 px-3 text-sm font-semibold text-primary-500 hover:bg-primary-50 rounded-lg transition-all duration-200"
+						class="block py-3 px-3 text-sm font-medium text-primary-500 hover:bg-primary-50 rounded-lg transition-all duration-300"
 						on:click={() => (mobileMenuOpen = false)}
 					>
 						Get in touch
