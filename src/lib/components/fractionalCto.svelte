@@ -2,12 +2,12 @@
 	import IconWrapper from './atoms/iconWrapper.svelte';
 </script>
 
-<section>
+<section id="fractional-cto">
 	<div class="flex flex-col lg:flex-row gap-6 sm:gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="flex-1">
-			<h4 class="font-semibold mb-3 h4 text-primary-300">Fractional CTO services</h4>
+			<h3 class="font-semibold mb-3 h4 text-primary-300">Fractional CTO services</h3>
 			<h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">
-				Evolving Expertise, Expanding Horizons
+				Strategic tech leadership, without the full-time cost
 			</h2>
 			<div class="text-gray-500 dark:text-gray-400 lg:max-w-4xl">
 				<p class="mb-3">
