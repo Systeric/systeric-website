@@ -8,10 +8,6 @@
 	import icon from '$lib/assets/icon.webp';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
-	// For toasts https://www.skeleton.dev/utilities/toasts
-	import { initializeStores } from '@skeletonlabs/skeleton';
-	initializeStores();
-
 	const navLinks = [
 		{ href: '#services', label: 'Services' },
 		{ href: '#clients', label: 'Clients' },
