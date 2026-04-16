@@ -16,10 +16,8 @@
 
 <section id="clients">
 	<div class="mx-auto text-center max-w-4xl">
-		<p class="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-10">Trusted by companies around the globe</p>
-		<div
-			class="flex flex-wrap justify-center items-center gap-x-8 gap-y-6 sm:gap-x-12 sm:gap-y-8 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500"
-		>
+		<p class="label-muted mb-10">Trusted by companies around the globe</p>
+		<div class="logo-strip gap-x-8 gap-y-6 sm:gap-x-12 sm:gap-y-8">
 			<a href="https://www.fliesimo.de/" class="transition-transform hover:scale-110">
 				<img src={fliesimo} alt="Fliesimo" loading="lazy" class="max-h-8 sm:max-h-10" />
 			</a>

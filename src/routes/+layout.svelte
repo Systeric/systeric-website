@@ -2,7 +2,6 @@
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 
-	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	import icon from '$lib/assets/icon.webp';
@@ -44,7 +43,7 @@
 		<div class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-slate-100">
 			<AppBar class="container mx-auto !bg-transparent" background="">
 				<svelte:fragment slot="lead">
-					<a href="/" class="flex items-center gap-3 group focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 rounded-lg">
+					<a href="/" class="flex items-center gap-3 group focus-ring rounded-lg">
 						<img src={icon} alt="Systeric" class="w-9 transition-transform group-hover:scale-105" />
 						<strong class="text-xl font-semibold tracking-tight" style="color: #0090d1;">systeric</strong>
 					</a>
@@ -52,22 +51,12 @@
 				<svelte:fragment slot="trail">
 					<nav class="hidden md:flex items-center gap-8" aria-label="Main navigation">
 						{#each navLinks as { href, label }}
-							<a
-								{href}
-								class="text-sm font-medium text-slate-500 hover:text-primary-500 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 rounded"
-							>
-								{label}
-							</a>
+							<a {href} class="nav-link">{label}</a>
 						{/each}
-						<a
-							href="#contact-us"
-							class="text-sm font-semibold text-white bg-primary-500 hover:bg-primary-600 px-5 py-2.5 rounded-lg transition-all duration-200 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
-						>
-							Get in touch
-						</a>
+						<a href="#contact-us" class="btn-nav">Get in touch</a>
 					</nav>
 					<button
-						class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+						class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors focus-ring"
 						on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
 						aria-label="Toggle navigation menu"
 						aria-expanded={mobileMenuOpen}
@@ -85,13 +74,7 @@
 			{#if mobileMenuOpen}
 				<nav class="md:hidden bg-white/95 backdrop-blur-lg border-t border-slate-100 px-6 py-4 space-y-1" aria-label="Mobile navigation">
 					{#each navLinks as { href, label }}
-						<a
-							{href}
-							class="block py-3 px-3 text-sm font-medium text-slate-600 hover:text-primary-500 hover:bg-primary-50 rounded-lg transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
-							on:click={() => (mobileMenuOpen = false)}
-						>
-							{label}
-						</a>
+						<a {href} class="nav-link-mobile" on:click={() => (mobileMenuOpen = false)}>{label}</a>
 					{/each}
 					<a
 						href="#contact-us"

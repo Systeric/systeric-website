@@ -3,13 +3,11 @@
 </script>
 
 <section class="!py-16 sm:!py-20">
-	<div class="bg-tertiary-500 rounded-2xl p-8 sm:p-14">
-		<p class="font-semibold mb-3 text-sm uppercase tracking-wider text-primary-500">Our story</p>
-		<h2 class="text-3xl sm:text-4xl tracking-tight font-bold mb-10" style="color: #003d99;">
-			From 8 to 50+ engineers in 8 months
-		</h2>
+	<div class="card">
+		<p class="label-section">Our story</p>
+		<h2 class="heading-section mb-10">From 8 to 50+ engineers in 8 months</h2>
 
-		<div class="flex flex-col-reverse lg:flex-row gap-10 sm:gap-16">
+		<div class="card-layout flex-col-reverse">
 			<div class="flex-1 text-slate-600 max-w-xl">
 				<IconWrapper>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
@@ -21,10 +19,10 @@
 					<strong class="text-slate-800 font-semibold">Rapid growth.</strong><br />
 					Our origins lie within a dedicated South East Asian team. The rapid expansion of our team
 					from 8 to 50+ skilled experts within the first 8 months
-					<span class="text-primary-500 font-medium">reflects a commitment to exceeding expectations</span>,
+					<span class="text-emphasis">reflects a commitment to exceeding expectations</span>,
 					not just meeting them. Our formative years were spent collaborating with a discerning German
 					clientele. Their
-					<span class="text-primary-500 font-medium">insistence on precision and innovation became ingrained</span>
+					<span class="text-emphasis">insistence on precision and innovation became ingrained</span>
 					in our own work ethic.
 				</p>
 			</div>
@@ -38,9 +36,9 @@
 					<strong class="text-slate-800 font-semibold">Experience is the greatest teacher.</strong><br />
 					We recognized a recurring demand for more strategic tech leadership, not just flawless
 					execution. Drawing on our
-					<span class="text-primary-500 font-medium">experience across a vast range of industries</span>, this
+					<span class="text-emphasis">experience across a vast range of industries</span>, this
 					understanding propelled our evolution. Now, we offer fractional CTO services,
-					<span class="text-primary-500 font-medium">providing visionary guidance alongside technical excellence</span>.
+					<span class="text-emphasis">providing visionary guidance alongside technical excellence</span>.
 				</p>
 			</div>
 		</div>
