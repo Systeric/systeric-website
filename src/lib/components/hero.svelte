@@ -3,19 +3,16 @@
 </script>
 
 <section id="hero" class="!pt-10 sm:!pt-14 lg:!pt-16 !pb-4 sm:!pb-8">
-	<div class="flex flex-col-reverse lg:flex-row lg:items-center gap-12 lg:gap-20">
+	<div class="flex flex-col-reverse lg:flex-row lg:items-center gap-10 lg:gap-16">
 		<div class="flex-1 max-w-xl">
-			<h1 class="heading-display mb-7">Outcomes over outputs</h1>
-			<div class="text-slate-500 mb-10 text-lg space-y-4">
-				<p>
-					We validate before we build, scope ruthlessly, and measure what matters.
-					Most agencies ship features. We ship outcomes — reduced costs, faster time-to-market,
-					and software that solves real problems.
-				</p>
-				<p class="text-slate-400">
-					Product management, design, and software engineering under one roof.
-				</p>
-			</div>
+			<h1 class="heading-display mb-6">Outcomes over outputs</h1>
+			<p class="text-slate-600 text-lg mb-4">
+				We validate before we build, scope ruthlessly, and measure what matters.
+			</p>
+			<p class="text-slate-400 mb-10">
+				Most agencies ship features. We ship outcomes — reduced costs, faster time-to-market,
+				and software that solves real problems. Product management, design, and engineering under one roof.
+			</p>
 
 			<div class="flex flex-wrap gap-4">
 				<a href="#contact-us" class="btn-primary">
@@ -32,7 +29,7 @@
 			<img
 				src={hero}
 				alt="Systeric team collaborating on software solutions"
-				class="rounded-2xl max-w-md lg:max-w-lg w-full"
+				class="rounded-2xl max-w-sm lg:max-w-md w-full"
 			/>
 		</div>
 	</div>
