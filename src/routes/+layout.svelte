@@ -37,6 +37,23 @@
 		name="twitter:description"
 		content="An opinionated engineering partner. We validate before building, ship small, and measure what matters."
 	/>
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Systeric",
+		"url": "https://www.systeric.com",
+		"description": "Opinionated engineering partner integrating product management, design, and software engineering.",
+		"email": "commercial@systeric.com",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "2nd Floor Benoa Square, Jl. Bypass Ngurah Rai No. 21A",
+			"addressLocality": "Kuta Badung",
+			"addressRegion": "Bali",
+			"postalCode": "80361",
+			"addressCountry": "ID"
+		},
+		"sameAs": ["https://www.npmjs.com/package/@systeric/pg-queue"]
+	})}</script>`}
 </svelte:head>
 <AppShell>
 	<svelte:fragment slot="header">
@@ -74,12 +91,12 @@
 			{#if mobileMenuOpen}
 				<nav class="md:hidden bg-white border-t border-slate-100 px-6 py-4 space-y-1" aria-label="Mobile navigation">
 					{#each navLinks as { href, label }}
-						<a {href} class="nav-link-mobile" on:click={() => (mobileMenuOpen = false)}>{label}</a>
+						<a {href} class="nav-link-mobile" on:click={() => setTimeout(() => (mobileMenuOpen = false), 50)}>{label}</a>
 					{/each}
 					<a
 						href="#contact-us"
 						class="block py-3 px-3 text-sm font-medium text-primary-500 hover:bg-primary-50 rounded-lg transition-all duration-300"
-						on:click={() => (mobileMenuOpen = false)}
+						on:click={() => setTimeout(() => (mobileMenuOpen = false), 50)}
 					>
 						Get in touch
 					</a>

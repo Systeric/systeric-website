@@ -30,7 +30,7 @@
 		</div>
 		<hr class="my-10 border-slate-100" />
 		<span class="text-sm text-slate-300">
-			&copy; 2025 Systeric. All rights reserved.
+			&copy; {new Date().getFullYear()} Systeric. All rights reserved.
 		</span>
 	</div>
 </footer>
