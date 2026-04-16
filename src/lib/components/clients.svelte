@@ -52,7 +52,7 @@
 				<img src={reallysick} alt="ReallySick" loading="lazy" class="max-h-10 sm:max-h-12" />
 			</a>
 		</div>
-		<p class="mt-10 text-xs text-slate-400">* Due to confidentiality agreements, some of our valued clients remain undisclosed.</p>
+		<p class="text-disclaimer mt-10">* Due to confidentiality agreements, some of our valued clients remain undisclosed.</p>
 
 		<div class="mt-16 pt-10 border-t border-slate-100">
 			<p class="label-muted mb-6">Featured by</p>
