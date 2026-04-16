@@ -21,12 +21,12 @@
     <div>
       <p class="label-muted mb-5">Industries</p>
       <div class="flex flex-wrap gap-2.5">
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">Finance</span>
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">FinTech</span>
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">E-commerce</span>
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">Logistics</span>
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">Healthcare</span>
-        <span class="px-4 py-1.5 text-sm text-slate-400 border border-slate-200 rounded-full">Sustainability</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">Finance</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">FinTech</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">E-commerce</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">Logistics</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">Healthcare</span>
+        <span class="px-4 py-1.5 text-sm text-slate-500 border border-slate-300 rounded-full">Sustainability</span>
       </div>
     </div>
   </div>
