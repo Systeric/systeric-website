@@ -3,11 +3,11 @@
 	import neutralizer from '$lib/assets/clients/neutralizer.webp';
 	import teamsimon from '$lib/assets/clients/teamsimon.webp';
 	import titippaket from '$lib/assets/clients/titippaket.webp';
-	import maplin from '$lib/assets/clients/maplin.webp';
-	import vocha from '$lib/assets/clients/vocha.webp';
+	// import maplin from '$lib/assets/clients/maplin.webp';
+	// import vocha from '$lib/assets/clients/vocha.webp';
 	import ptump from '$lib/assets/clients/ptump.webp';
 	import ptml from '$lib/assets/clients/ptml.webp';
-	import cvtmp from '$lib/assets/clients/cvtmp.webp';
+	// import cvtmp from '$lib/assets/clients/cvtmp.webp';
 	import ubsi from '$lib/assets/clients/ubsi.webp';
 	import eliteasia from '$lib/assets/clients/eliteasia.webp';
 	import iamcasting from '$lib/assets/clients/iamcasting.webp';
@@ -36,11 +36,11 @@
 			<a href="https://www.linkedin.com/company/titippaket/" class="transition-transform hover:scale-105">
 				<img src={titippaket} alt="Titip Paket" loading="lazy" class="max-h-10 sm:max-h-12" />
 			</a>
-			<img src={maplin} alt="Maplin" loading="lazy" class="max-h-10 sm:max-h-12" />
-			<img src={vocha} alt="Vocha" loading="lazy" class="max-h-10 sm:max-h-12" />
+			<!-- <img src={maplin} alt="Maplin" loading="lazy" class="max-h-10 sm:max-h-12" /> -->
+			<!-- <img src={vocha} alt="Vocha" loading="lazy" class="max-h-10 sm:max-h-12" /> -->
 			<img src={ptump} alt="PT UMP" loading="lazy" class="max-h-10 sm:max-h-12" />
 			<img src={ptml} alt="PT ML" loading="lazy" class="max-h-10 sm:max-h-12" />
-			<img src={cvtmp} alt="CV TMP" loading="lazy" class="max-h-10 sm:max-h-12" />
+			<!-- <img src={cvtmp} alt="CV TMP" loading="lazy" class="max-h-10 sm:max-h-12" /> -->
 			<img src={ubsi} alt="UBSI" loading="lazy" class="max-h-10 sm:max-h-12" />
 			<a href="https://www.eliteasia.co/" class="transition-transform hover:scale-105">
 				<img src={eliteasia} alt="Elite Asia" loading="lazy" class="max-h-10 sm:max-h-12" />
