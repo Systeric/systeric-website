@@ -1,4 +1,4 @@
-<section id="hero" class="!pt-20 sm:!pt-28 lg:!pt-36 !pb-14 sm:!pb-20 lg:!pb-24 relative overflow-hidden">
+<section id="hero" class="!pt-12 sm:!pt-28 lg:!pt-36 !pb-10 sm:!pb-20 lg:!pb-24 relative overflow-hidden">
 	<!-- Radial glow -->
 	<div class="hero-glow" aria-hidden="true"></div>
 
