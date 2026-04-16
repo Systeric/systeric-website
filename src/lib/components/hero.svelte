@@ -1,5 +1,8 @@
-<section id="hero" class="!pt-20 sm:!pt-28 lg:!pt-36 !pb-14 sm:!pb-20 lg:!pb-24">
-	<div class="max-w-2xl mx-auto text-center">
+<section id="hero" class="!pt-20 sm:!pt-28 lg:!pt-36 !pb-14 sm:!pb-20 lg:!pb-24 relative overflow-hidden">
+	<!-- Radial glow -->
+	<div class="hero-glow" aria-hidden="true"></div>
+
+	<div class="max-w-2xl mx-auto text-center relative">
 		<h1 class="heading-display mb-8">Outcomes over outputs</h1>
 		<p class="text-slate-600 text-lg sm:text-xl leading-relaxed mb-4">
 			We validate before we build, scope ruthlessly, and measure what matters.

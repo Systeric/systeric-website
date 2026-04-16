@@ -27,6 +27,18 @@ section {
 	font-display: swap;
 }
 
+/* ─── Hero ─── */
+
+.hero-glow {
+	@apply absolute pointer-events-none;
+	top: -40%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 800px;
+	height: 600px;
+	background: radial-gradient(ellipse at center, rgba(0, 61, 153, 0.08) 0%, rgba(0, 61, 153, 0.03) 40%, transparent 70%);
+}
+
 /* ─── Design System ─── */
 
 @layer components {
