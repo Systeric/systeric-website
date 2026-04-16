@@ -17,9 +17,15 @@
 					<p>Kuta Badung, Bali 80361</p>
 				</div>
 			</div>
-			<div>
-				<p class="text-xs uppercase tracking-[0.15em] text-slate-300 mb-4">Contact</p>
-				<a class="text-sm text-slate-500 hover:text-primary-500 transition-colors duration-300" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
+			<div class="flex gap-16">
+				<div>
+					<p class="text-xs uppercase tracking-[0.15em] text-slate-300 mb-4">Contact</p>
+					<a class="text-sm text-slate-500 hover:text-primary-500 transition-colors duration-300" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
+				</div>
+				<div>
+					<p class="text-xs uppercase tracking-[0.15em] text-slate-300 mb-4">Open Source</p>
+					<a class="text-sm text-slate-500 hover:text-primary-500 transition-colors duration-300" href="https://www.npmjs.com/package/@systeric/pg-queue" target="_blank" rel="noopener noreferrer">@systeric/pg-queue</a>
+				</div>
 			</div>
 		</div>
 		<hr class="my-10 border-slate-100" />
