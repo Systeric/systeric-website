@@ -17,10 +17,10 @@
 			<div>
 				<p class="h4 mb-4"><strong class="text-white">Company</strong></p>
 
-				<button on:click={() => (window.location.href = '/')} class="flex items-center mb-4">
-					<img src={icon} alt="Systeric icon" class="w-10 mr-3" />
+				<a href="/" class="flex items-center mb-4">
+					<img src={icon} alt="Systeric icon" loading="lazy" class="w-10 mr-3" />
 					<strong class="text-2xl font-semibold text-secondary-500 -mt-1">systeric</strong>
-				</button>
+				</a>
 
 				<a class="text-white" href="mailto:commercial@systeric.com">commercial@systeric.com</a>
 			</div>
@@ -28,7 +28,7 @@
 		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-				>© 2024 <a href="https://systeric.com" class="hover:underline">Systeric™</a>. All Rights
+				>© 2025 <a href="https://systeric.com" class="hover:underline">Systeric™</a>. All Rights
 				Reserved.
 			</span>
 			<!-- <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">

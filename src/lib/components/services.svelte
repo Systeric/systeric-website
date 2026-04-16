@@ -2,23 +2,22 @@
 	import IconWrapper from './atoms/iconWrapper.svelte';
 </script>
 
-<section>
+<section id="services">
 	<div class="flex flex-col lg:flex-row gap-6 sm:gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
 		<div class="flex-1">
-			<h4 class="font-semibold mb-3 h4 text-primary-300">Projects</h4>
+			<h3 class="font-semibold mb-3 h4 text-primary-300">What We Do</h3>
 			<h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">
-				We take product ideas from end-to-end
+				Problems first, solutions second
 			</h2>
 			<div class="text-gray-500 dark:text-gray-400 lg:max-w-4xl">
 				<p class="mb-3">
-					There is a steep mountain to climb when launching a new platform, re-designing an existing
-					experience, or strengthening product culture. Don’t go the journey alone. Our specialists
-					fit and flex with the needs of your business on the path to digital transformation.
+					Every feature request is a hypothesis. Before committing engineering time,
+					we validate the problem exists, understand why current solutions fail,
+					and ensure it’s worth solving given your priorities.
 				</p>
 				<p>
-					We explore, design, and build technology solutions and innovation teams that enable the
-					world's top companies to make effective decisions, work better together, and ultimately
-					thrive.
+					We integrate strategy, design, and engineering so you get one team
+					that owns outcomes — not a chain of handoffs that dilutes accountability.
 				</p>
 			</div>
 		</div>

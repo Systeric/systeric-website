@@ -1,11 +1,11 @@
 <section>
   <div class="flex flex-col lg:flex-row gap-6 sm:gap-12 p-8 sm:p-12 bg-tertiary-500 rounded-lg">
     <div class="flex-1">
-      <h4 class="font-semibold mb-3 h4 text-primary-300">Transforming Impossibilities into Realities</h4>
-      <h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">Embark on Our Extraordinary Tech Odyssey</h2>
+      <h3 class="font-semibold mb-3 h4 text-primary-300">Complex Problems, Proven Solutions</h3>
+      <h2 class="mb-4 h2 tracking-tight font-semibold text-primary-500 lg:mx-auto">What We've Built</h2>
       <div class="text-gray-500 dark:text-gray-400 lg:max-w-4xl">
         <p class="mb-3">
-          At <strong class="text-secondary-500 font-semibold">Systeric</strong>, we don't just solve problems; we redefine what's possible. Our approach combines expertise, creativity, and persistence to tackle complex challenges, leading to groundbreaking solutions with real-world impact across various industries.
+          We tackle the problems others avoid. Our approach combines deep technical expertise with disciplined engineering practices — trunk-based development, feature flags, structured observability — to deliver systems that work at scale.
         </p>
         <div class="mb-3">
           <strong>Key Achievements:</strong>
@@ -20,7 +20,7 @@
           <ul class="list-disc pl-5">
             <li class="font-light">Cutting-edge tech, handpicked for each unique challenge</li>
             <li class="font-light">Battle-tested open-source solutions, fine-tuned for peak performance</li>
-            <li class="font-light">A team of tech wizards who thrive on innovation</li>
+            <li class="font-light">Engineers who ship small, measure outcomes, and iterate fast</li>
           </ul>
         </div>
       </div>
@@ -53,9 +53,7 @@
         </div>
         <h3 class="mb-2 font-semibold dark:text-white text-secondary-500">Our Commitment to Excellence</h3>
         <p class="text-gray-500 dark:text-gray-400">
-          At <strong class="text-secondary-500 font-semibold">Systeric</strong>, we're committed to delivering solutions that exceed expectations. Our track record across various complex projects showcases our expertise, innovation, and dedication to client success.
-          <br/>
-          From millisecond-level transaction processing to bank-grade security and global inventory optimization, we craft digital masterpieces that push boundaries.
+          From millisecond-level transaction processing to bank-grade ledger systems and multi-region inventory optimization, our track record speaks to disciplined engineering applied to hard problems.
         </p>
       </div>
     </div>

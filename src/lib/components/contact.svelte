@@ -42,27 +42,30 @@
 		);
 	};
 
-	async function onSubmit() {
-		try {
-			sendDiscordMsg();
+	let submitting = false;
 
-			const t = {
+	async function onSubmit() {
+		submitting = true;
+		try {
+			await sendDiscordMsg();
+
+			toastStore.trigger({
 				background: 'variant-filled-success',
 				hideDismiss: true,
-				message: `👋 We've received your inquiry. Our team will reach out to you shortly.`,
+				message: `We've received your inquiry. Our team will reach out to you shortly.`,
 				timeout: 3000
-			};
-			toastStore.trigger(t);
+			});
 
 			resetForm();
 		} catch (error) {
-			// const t = {
-			// 	background: 'variant-filled-warning',
-			// 	hideDismiss: true,
-			// 	message: `We're unable to submit inquiry. Please try again later.`,
-			// 	timeout: 3000
-			// };
-			// toastStore.trigger(t);
+			toastStore.trigger({
+				background: 'variant-filled-warning',
+				hideDismiss: true,
+				message: `We're unable to submit your inquiry. Please try again later.`,
+				timeout: 3000
+			});
+		} finally {
+			submitting = false;
 		}
 	}
 </script>
@@ -125,8 +128,9 @@
 				</div>
 				<button
 					type="submit"
-					class="py-3 px-5 mt-4 text-sm font-medium text-center text-white rounded-lg bg-primary-500 sm:w-fit hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300"
-				>Submit inquiry
+					disabled={submitting}
+					class="py-3 px-5 mt-4 text-sm font-medium text-center text-white rounded-lg bg-primary-500 sm:w-fit hover:bg-primary-700 focus-visible:ring-4 focus-visible:outline-none focus-visible:ring-primary-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+				>{submitting ? 'Submitting...' : 'Submit inquiry'}
 				</button
 				>
 		</form>

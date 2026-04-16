@@ -3,9 +3,9 @@
 </script>
 
 <section class="py-12 sm:py-16 bg-tertiary-500 rounded-lg mb-8 mt-8">
-	<h4 class="font-semibold mb-3 h4 text-primary-400">Our story</h4>
+	<h3 class="font-semibold mb-3 h4 text-primary-400">Our story</h3>
 	<h2 class="h2 mb-8 tracking-tight font-medium text-secondary-500">
-		Evolving Expertise, Expanding Horizons
+		From 8 to 50+ engineers in 8 months
 	</h2>
 
 	<div class="flex flex-col-reverse lg:flex-row gap-6 sm:gap-12">
